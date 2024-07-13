@@ -35,6 +35,7 @@ class Channel(BaseModel):
     current_temperature: int
     energy_level: int
     operating_mode: int
+    humidity: int
     setpoints: Setpoints
 
 
