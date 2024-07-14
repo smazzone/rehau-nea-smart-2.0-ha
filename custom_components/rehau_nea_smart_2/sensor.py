@@ -178,11 +178,12 @@ class RehauNeasmart2OutdoorTemperatureSensor(SensorEntity, RestoreEntity):
     @property
     def native_value(self) -> float | None:
         """Return the native value of the sensor."""
-        return round((getattr(self._installation, self._propertyname) / 10 - 32) / 1.8, 1)
+        installation = self._controller.get_installation_by_unique(self._installation_unique)
+        return round((installation.get(self._propertyname) / 10 - 32) / 1.8, 1)
 
     @property
     def state(self):
         """Return the state of the sensor."""
-        
-        return round((getattr(self._installation, self._propertyname) / 10 - 32) / 1.8, 1)
+        installation = self._controller.get_installation_by_unique(self._installation_unique)
+        return round((installation.get(self._propertyname) / 10 - 32) / 1.8, 1)
 
