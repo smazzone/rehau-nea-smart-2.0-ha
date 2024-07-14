@@ -65,3 +65,5 @@ class Installation(BaseModel):
     connected: bool
     operating_mode: int
     groups: list[Group]
+    outside_temp: int
+    outsideTempFiltered: int
