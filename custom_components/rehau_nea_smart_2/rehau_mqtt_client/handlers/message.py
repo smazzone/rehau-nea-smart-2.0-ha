@@ -37,7 +37,7 @@ async def handle_user_message(payload: str, client):
     elif message["type"] == "referential":
         await handle_referential(message, client)
     elif message["type"] == "live_data":
-        _LOGGER.debug("live data: " + message)
+        _LOGGER.debug("live data: {0}".format(message))
     else:
         _LOGGER.debug("Unhandled user message: " + message["type"])
 
