@@ -18,6 +18,8 @@ from .exceptions import (
     MqttClientCommunicationError,
 )
 
+_LOGGER = logging.getLogger(__name__)
+
 def __init__():
     """Initialize the rehau_nea_smart_2 component mqttclient."""
     _LOGGER.debug("Initializing NEA SMART 2 HACS INTEGRATION")
