@@ -380,7 +380,7 @@ class Controller:
         self.mqtt_client.remove_callback(callback)
 
     def get_installation_by_unique(self, installation_unique: str):
-            """Return the installation"""
+            """Return the installation."""
             Installations = self.get_installations_as_dict()
             if Installations is None:
                 return False

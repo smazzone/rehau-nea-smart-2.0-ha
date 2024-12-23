@@ -42,7 +42,7 @@ def parse_installations(installations, last_operation_mode) -> list[Installation
                             "channels": [
                                 {
                                     "id": channel["_id"],
-                                    "humidity": channel["humidity"],
+                                    "humidity": channel.get("humidity",0),
                                     "target_temperature": channel["setpoint_used"],
                                     "current_temperature": channel["temp_zone"],
                                     "energy_level": channel["mode_permanent"],
