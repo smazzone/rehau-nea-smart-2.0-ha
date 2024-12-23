@@ -82,8 +82,8 @@ class IntegrationRehauNeaSmart2Climate(ClimateEntity, RestoreEntity):
             "heating_standby": channel.setpoints.heating.standby,
             "cooling_normal": channel.setpoints.cooling.normal,
             "cooling_reduced": channel.setpoints.cooling.reduced,
-            "current_humidity": channel.humidity
         }
+        attributes["current_humidity"] = channel.humidity if channel.humidity!=0
 
         for attribute in attributes:
             setattr(self, f"_{attribute}", attributes[attribute])
