@@ -59,8 +59,8 @@ def parse_installations(installations, last_operation_mode) -> list[Installation
                                             "reduced": channel["setpoint_h_reduced"],
                                             "standby": channel["setpoint_h_standby"],
                                         },
-                                        "min": 64,
-                                        "max": 81,
+                                        "min": 644,
+                                        "max": 806,
                                     },
                                 }
                                 for channel in zone["channels"]
