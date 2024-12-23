@@ -83,7 +83,7 @@ class IntegrationRehauNeaSmart2Climate(ClimateEntity, RestoreEntity):
             "cooling_normal": channel.setpoints.cooling.normal,
             "cooling_reduced": channel.setpoints.cooling.reduced,
         }
-        if channel.humidity!=0
+        if channel.humidity!=0:
             attributes["current_humidity"] = channel.humidity
 
         for attribute in attributes:
