@@ -461,6 +461,7 @@ class MqttClient:
         installation["mixed_circuit1_return"] = payload["mixed_circuit1_return"]
         installation["mixed_circuit1_opening"] = payload["mixed_circuit1_opening"]
 
+        await self.publish_updates()
 
     async def update_channel(self, payload: dict):
         """Update the channel with the provided payload.
