@@ -27,6 +27,14 @@ ENTITY_DESCRIPTIONS = (
     ),
 )
 
+ENTITY_DESCRIPTIONS_FOR_HUM = (
+    SensorEntityDescription(
+        key="rehau_nea_smart_2",
+        name="Integration Sensor",
+        icon="mdi:water-percent",
+    ),
+)
+
 
 async def async_setup_entry(hass, entry, async_add_devices):
     """Set up the sensor platform."""
@@ -55,6 +63,11 @@ async def async_setup_entry(hass, entry, async_add_devices):
                             controller, zone, installation.unique, entity_description
                         )
                     )
+
+    for entity_description in ENTITY_DESCRIPTIONS_FOR_HUM:
+        for installation in installations:
+            for group in installation.groups:
+                for zone in group.zones:
                     devices.append(
                         RehauNeasmart2HumiditySensor(
                             controller, zone, installation.unique, entity_description
