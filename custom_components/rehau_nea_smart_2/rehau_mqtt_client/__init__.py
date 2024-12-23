@@ -1,5 +1,6 @@
 """The rehau_nea_smart_2 component mqttclient."""
 
+import logging
 from .Controller import Controller
 from .MqttClient import MqttClient
 from .models import (
