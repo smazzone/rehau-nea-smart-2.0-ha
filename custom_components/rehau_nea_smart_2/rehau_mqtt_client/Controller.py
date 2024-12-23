@@ -196,7 +196,7 @@ class Controller:
             MqttClientError: If no zone is found for the given zone number.
         """
 
-        return self.get_zone_value_by_key("humidity", zone) / 10
+        return self.get_zone_value_by_key("humidity", zone)
 
     def set_temperature(self, payload: dict):
         """Set the temperature for a specific zone.

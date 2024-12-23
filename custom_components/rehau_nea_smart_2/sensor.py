@@ -138,7 +138,7 @@ class RehauNeasmart2HumiditySensor(RehauNeasmartGenericSensor):
     """Temperature sensor class for Rehau Neasmart 2."""
 
     device_class = SensorDeviceClass.HUMIDITY
-    #_attr_native_unit_of_measurement = UnitOfTemperature.CELSIUS
+    _attr_native_unit_of_measurement = "%"
 
     def __init__(
             self,
