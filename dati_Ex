@@ -1,0 +1,4068 @@
+{
+    "success": true,
+    "data": {
+        "token": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjEzY2EyMjEyLTgzMGYtNDQ1MS05ZDkyLTFlMzA3NWNjZmZiYSJ9.eyJhbXIiOlsiMTAiXSwiYXVkIjoiNTYwYWZlNTQtN2FlNC00ZWFlLWIzOGYtNDVmODIwY2VjYTE5IiwiYXV0aF90aW1lIjoxNzM0OTYwNDkyLCJleHAiOjE3MzUwNDY4OTIsImlhdCI6MTczNDk2MDQ5MiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5yZWhhdS5jb20iLCJpc3ViIjoiMWVkNmRmODUtNGFmNi00Njg1LTk0ZjYtODBjMWRhYTliZGY5IiwianRpIjoiZTI5MzRhNGQtNjEyNC00NDdhLWI4M2QtMTcxNDRlZTc1OTllIiwibm9uY2UiOiIxMjM0NSIsInJvbGVzIjpbIlVTRVIiXSwic2NvcGVzIjpbInByb2ZpbGUiLCJlbWFpbCIsInBob25lIiwiYWRkcmVzcyIsIm9mZmxpbmVfYWNjZXNzIiwiY2lkYWFzOnJlZ2lzdGVyIiwicm9sZXMiLCJncm91cHMiLCJpZGVudGl0aWVzIiwiY2lkYWFzOmludml0ZSJdLCJzaWQiOiI1OTBhNmI1NC03M2FlLTQxMTktOTgxOS1jZTMzNjdjMmJlZGEiLCJzdWIiOiJmZTU2MWZlNi1iNDk2LTQyNWMtYTdhNS1mZTlhOTEwZDQxNjMiLCJ1YV9oYXNoIjoiNWFmNTBkMWZlZTc2NGVhZWU2Njg1Nzk3Zjc2YTgyYjYifQ.vv1F9RONrHjRzF_T52O5ZhjEEyVlEsD_5abEOcZzboEKrcyBbEM9pCh096JSEXYWzU12f5of_EQkdAVr6fET1OXsrCMZMjDO5e5fR_a-OKBScnh_GerBsN_3nD1nCxDfal52Dvavj9IGuvDNlWi6zb7cRh8VoL8EZLpwZqlhz6E",
+        "user": {
+            "geofencing": {
+                "installs": [
+                    {
+                        "_id": "6405eacdd2aa22c8d7905861",
+                        "id": "6405e7832f4b85c6dd2d9a04",
+                        "active": false
+                    }
+                ],
+                "date": "2023-07-20T17:23:48.000Z",
+                "lat": 41.36755476173475,
+                "long": 15.32281577442597
+            },
+            "_id": "6405b4ad2fd56bb9cd309774",
+            "email": "p.zaccaglino@gmail.com",
+            "createdAt": "2023-03-06T09:38:53.807Z",
+            "language": "it",
+            "roles": [
+                "user"
+            ],
+            "installs": [
+                {
+                    "absenceMode": {
+                        "value": false,
+                        "zones": []
+                    },
+                    "vacation": {
+                        "zones": []
+                    },
+                    "partymode": {
+                        "time": 120,
+                        "date": "2023-03-21T08:37:26.000Z",
+                        "zones": [
+                            "0-1",
+                            "0-2"
+                        ]
+                    },
+                    "association": {
+                        "users": [
+                            {
+                                "_id": "6405b4ad2fd56bb9cd309774",
+                                "email": "p.zaccaglino@gmail.com",
+                                "roles": [
+                                    "user"
+                                ],
+                                "geoActive": false
+                            }
+                        ],
+                        "installers": [
+                            {
+                                "_id": "64ba16efd0170cd7f99d5397",
+                                "email": "p.zaccaglino@legsolution.com",
+                                "roles": [
+                                    "installer",
+                                    "user"
+                                ],
+                                "geoActive": false
+                            }
+                        ]
+                    },
+                    "programs": {
+                        "days": [
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "06:00"
+                                    },
+                                    {
+                                        "startDate": "06:00",
+                                        "value": "activity",
+                                        "endDate": "09:00"
+                                    },
+                                    {
+                                        "startDate": "09:00",
+                                        "value": "absent",
+                                        "endDate": "17:00"
+                                    },
+                                    {
+                                        "startDate": "17:00",
+                                        "value": "activity",
+                                        "endDate": "22:00"
+                                    },
+                                    {
+                                        "startDate": "22:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "09:00"
+                                    },
+                                    {
+                                        "startDate": "09:00",
+                                        "value": "activity",
+                                        "endDate": "17:00"
+                                    },
+                                    {
+                                        "startDate": "17:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ],
+                                "name": "Fotovoltaico"
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "08:00"
+                                    },
+                                    {
+                                        "startDate": "08:00",
+                                        "value": "activity",
+                                        "endDate": "19:00"
+                                    },
+                                    {
+                                        "startDate": "19:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ],
+                                "name": "Fotovoltaico estate"
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "06:00"
+                                    },
+                                    {
+                                        "startDate": "06:00",
+                                        "value": "activity",
+                                        "endDate": "08:00"
+                                    },
+                                    {
+                                        "startDate": "08:00",
+                                        "value": "absent",
+                                        "endDate": "17:00"
+                                    },
+                                    {
+                                        "startDate": "17:00",
+                                        "value": "activity",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            },
+                            {
+                                "values": [
+                                    {
+                                        "startDate": "00:00",
+                                        "value": "absent",
+                                        "endDate": "00:00"
+                                    }
+                                ]
+                            }
+                        ],
+                        "weeks": [
+                            {
+                                "monday": 0,
+                                "tuesday": 0,
+                                "wednesday": 0,
+                                "thursday": 0,
+                                "friday": 0,
+                                "saturday": 1,
+                                "sunday": 1,
+                                "name": ""
+                            },
+                            {
+                                "monday": 1,
+                                "tuesday": 1,
+                                "wednesday": 1,
+                                "thursday": 1,
+                                "friday": 1,
+                                "saturday": 1,
+                                "sunday": 1,
+                                "name": "Fotovoltaico"
+                            },
+                            {
+                                "monday": 2,
+                                "tuesday": 2,
+                                "wednesday": 2,
+                                "thursday": 2,
+                                "friday": 2,
+                                "saturday": 2,
+                                "sunday": 2,
+                                "name": "Fotovoltaico estivo"
+                            },
+                            {
+                                "monday": 0,
+                                "tuesday": 0,
+                                "wednesday": 0,
+                                "thursday": 0,
+                                "friday": 3,
+                                "saturday": 8,
+                                "sunday": 8
+                            },
+                            {
+                                "monday": 8,
+                                "tuesday": 8,
+                                "wednesday": 8,
+                                "thursday": 8,
+                                "friday": 2,
+                                "saturday": 1,
+                                "sunday": 1
+                            }
+                        ]
+                    },
+                    "user": {
+                        "degreef": {
+                            "unit": "false",
+                            "rule": "2"
+                        },
+                        "cfi_user": {
+                            "complex": false,
+                            "serverOutTemp": true,
+                            "balancingEnabled": false,
+                            "remote_function": false,
+                            "knxerrorEnabled": false,
+                            "MCXcentralsupply": true,
+                            "removeUnlinkFrame": false
+                        },
+                        "heatcool_auto_01": {
+                            "heating": true,
+                            "cooling": false,
+                            "manual": true,
+                            "HeatingAllow": true,
+                            "CoolingAllow": true,
+                            "AutomaticAllow": false
+                        },
+                        "sustrt": {
+                            "nbsunday": 0,
+                            "month": 0
+                        },
+                        "suend": {
+                            "nbsunday": 0,
+                            "month": 0
+                        },
+                        "hcp2": {
+                            "day": 1,
+                            "month": 9
+                        },
+                        "hcp3": {
+                            "day": 1,
+                            "month": 5
+                        },
+                        "hcp5": {
+                            "day": 1,
+                            "month": 4
+                        },
+                        "hcp6": {
+                            "day": 1,
+                            "month": 9
+                        },
+                        "language": "4",
+                        "off": "0",
+                        "economy": "5",
+                        "wifimode": "2",
+                        "partyTimePeriod": null,
+                        "hols": "1/02/1901",
+                        "hole": "1/02/1901",
+                        "hcp1": "0",
+                        "hcp4": "0",
+                        "hsl": "5",
+                        "partyTimeStart": null
+                    },
+                    "installer": {
+                        "softwareVersion": "06.07",
+                        "signalPower": 997,
+                        "number_cc": 1,
+                        "number_em_rooms": 0,
+                        "number_em_universal": 1,
+                        "number_em_hb": 0,
+                        "number_mx_circ": 1,
+                        "number_dehum": 1,
+                        "number_vent": 0,
+                        "number_rooms": 5,
+                        "number_en_enocean": null,
+                        "number_room_system": null,
+                        "number_pump": 1,
+                        "number_manifold": null,
+                        "presence_cc": null,
+                        "configured_cc": null,
+                        "presence_em_room": null,
+                        "configured_em_room": null,
+                        "presence_universal": null,
+                        "configured_universal": null,
+                        "presence_hb": null,
+                        "configured_hb": null,
+                        "presence_extra": null,
+                        "configured_extra": null,
+                        "pump_used": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5580a",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5580b",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5580c",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5580d",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5580e",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5580f",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55810",
+                                "key": 6,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55811",
+                                "key": 7,
+                                "value": 0
+                            }
+                        ],
+                        "mixedcircuit_used": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55812",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55813",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55814",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "buildMaintenancePhone": null,
+                        "buildMaintenanceMail": null,
+                        "buildType": "0",
+                        "buildEnergyStandard": "0",
+                        "buildOwnerFirstName": "Pasquale",
+                        "buildOwnerLastName": "Zaccaglino",
+                        "buildOwnerPhone": "3204947338",
+                        "buildOwnerMail": "p.zaccaglino@gmail.com",
+                        "offsetRoomTemp": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55815",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55816",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55817",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55818",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55819",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5581a",
+                                "key": 5,
+                                "value": 0
+                            }
+                        ],
+                        "offsertReturnTemperatures": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5581b",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5581c",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5581d",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "offsetRoomTempremote": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5581e",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5581f",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55820",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55821",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55822",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55823",
+                                "key": 5,
+                                "value": 0
+                            }
+                        ],
+                        "offsetHumidity": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55824",
+                                "key": 0,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55825",
+                                "key": 1,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55826",
+                                "key": 2,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55827",
+                                "key": 3,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55828",
+                                "key": 4,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55829",
+                                "key": 5,
+                                "value": 4
+                            }
+                        ],
+                        "heatingLimitNormalMode": 15,
+                        "heatingLimitAbsenceMode": 13,
+                        "hysteresisStartStop": 1.5,
+                        "tempFreezeProtection": 7,
+                        "tempOutsideLimitReduced": -10,
+                        "nominalStopReducetionReturn": 40,
+                        "boostModeMeasureTime": 10,
+                        "boostModeHysterisis": 1,
+                        "boostModeCompensationFactor": 2,
+                        "boostModeCycleTime": 30,
+                        "boostModePauseTime": 30,
+                        "heatCurveStartingPointNormalModeCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5582a",
+                                "key": 0,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5582b",
+                                "key": 1,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5582c",
+                                "key": 2,
+                                "value": 20
+                            }
+                        ],
+                        "heatCurveStartingPointAbsenceModeCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5582d",
+                                "key": 0,
+                                "value": 17
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5582e",
+                                "key": 1,
+                                "value": 17
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5582f",
+                                "key": 2,
+                                "value": 17
+                            }
+                        ],
+                        "slopeNormalModeCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55830",
+                                "key": 0,
+                                "value": 0.6
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55831",
+                                "key": 1,
+                                "value": 0.6
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55832",
+                                "key": 2,
+                                "value": 0.6
+                            }
+                        ],
+                        "slopeAbsenceModeCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55833",
+                                "key": 0,
+                                "value": 0.5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55834",
+                                "key": 1,
+                                "value": 0.5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55835",
+                                "key": 2,
+                                "value": 0.5
+                            }
+                        ],
+                        "flowReductionReducedMode": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55836",
+                                "key": 0,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55837",
+                                "key": 1,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55838",
+                                "key": 2,
+                                "value": 4
+                            }
+                        ],
+                        "roomTempCompensationFactor": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55839",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5583a",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5583b",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "minimumValueOfSupplyTemperatureHeatingModeNormalCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5583c",
+                                "key": 0,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5583d",
+                                "key": 1,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5583e",
+                                "key": 2,
+                                "value": 25
+                            }
+                        ],
+                        "minimumValueOfSupplyTemperatureHeatingModeAbsenceCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5583f",
+                                "key": 0,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55840",
+                                "key": 1,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55841",
+                                "key": 2,
+                                "value": 20
+                            }
+                        ],
+                        "maximumValueOfSupplyTemperatureHeatingModeNormalCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55842",
+                                "key": 0,
+                                "value": 45
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55843",
+                                "key": 1,
+                                "value": 45
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55844",
+                                "key": 2,
+                                "value": 45
+                            }
+                        ],
+                        "maximumValueOfSupplyTemperatureHeatingModeAbsenceCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55845",
+                                "key": 0,
+                                "value": 45
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55846",
+                                "key": 1,
+                                "value": 40
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55847",
+                                "key": 2,
+                                "value": 40
+                            }
+                        ],
+                        "filterTimeOutsideTempCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55848",
+                                "key": 0,
+                                "value": 48
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55849",
+                                "key": 1,
+                                "value": 48
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5584a",
+                                "key": 2,
+                                "value": 48
+                            }
+                        ],
+                        "pilotRoomInfluenceHeatingLimitCircuit": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5584b",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5584c",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5584d",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "boostModeAllowed": 1,
+                        "coolingModeStartDelayTime": 0,
+                        "coolingModeMinRunTime": 0,
+                        "blockingTimeHeatingCooling": 0,
+                        "calcTimeGradRefRoomTemp": 30,
+                        "calcTimeAvgRefRoomTemp": 30,
+                        "factorDeviationRefRoomTemp": 2.5,
+                        "basicValueCurrentOutsideTemp": 24,
+                        "basicValueAvgOutsideTemp": 18,
+                        "factorDeviationCurOutsideTemp": 1.5,
+                        "factorDeviationAvgOutsideTemp": 1.5,
+                        "refRoomFactorGradient": 3,
+                        "summerCompensationOutsideTempStart": 30,
+                        "summerCompensationOutsideTempEnd": 36,
+                        "enableSummerCompensation": false,
+                        "mixCircHeatGeneralPropBand": 20,
+                        "mixCircCoolGeneralPropBand": 10,
+                        "mixCircGeneralIntegralTime": 60,
+                        "mixCircGeneralMinControlSignal": 0,
+                        "mixCircGeneralMaxControlSignal": 100,
+                        "mixCircGeneralDelayTime": 15,
+                        "mixCircHeatPropBand": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5584e",
+                                "key": 0,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5584f",
+                                "key": 1,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55850",
+                                "key": 2,
+                                "value": 20
+                            }
+                        ],
+                        "mixCircCoolPropBand": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55851",
+                                "key": 0,
+                                "value": 10
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55852",
+                                "key": 1,
+                                "value": 10
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55853",
+                                "key": 2,
+                                "value": 10
+                            }
+                        ],
+                        "mixCircIntegralTime": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55854",
+                                "key": 0,
+                                "value": 60
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55855",
+                                "key": 1,
+                                "value": 60
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55856",
+                                "key": 2,
+                                "value": 60
+                            }
+                        ],
+                        "mixCircMinControlSignal": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55857",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55858",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55859",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "mixCircMaxControlSignal": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5585a",
+                                "key": 0,
+                                "value": 100
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5585b",
+                                "key": 1,
+                                "value": 100
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5585c",
+                                "key": 2,
+                                "value": 100
+                            }
+                        ],
+                        "mixCircDelayTime": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5585d",
+                                "key": 0,
+                                "value": 15
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5585e",
+                                "key": 1,
+                                "value": 15
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5585f",
+                                "key": 2,
+                                "value": 15
+                            }
+                        ],
+                        "mixCircControlSignalInverted": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55860",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55861",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55862",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "mixCircUsedSystem": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55863",
+                                "key": 0,
+                                "value": 17
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55864",
+                                "key": 1,
+                                "value": 17
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55865",
+                                "key": 2,
+                                "value": 17
+                            }
+                        ],
+                        "propBandwidthHeatingMode": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55866",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55867",
+                                "key": 1,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55868",
+                                "key": 2,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55869",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5586a",
+                                "key": 4,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5586b",
+                                "key": 5,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5586c",
+                                "key": 6,
+                                "value": 4
+                            }
+                        ],
+                        "propBandwidthCoolingMode": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5586d",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5586e",
+                                "key": 1,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5586f",
+                                "key": 2,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55870",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55871",
+                                "key": 4,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55872",
+                                "key": 5,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55873",
+                                "key": 6,
+                                "value": 4
+                            }
+                        ],
+                        "pulsePeriodRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55874",
+                                "key": 0,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55875",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55876",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55877",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55878",
+                                "key": 4,
+                                "value": 8
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55879",
+                                "key": 5,
+                                "value": 6
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5587a",
+                                "key": 6,
+                                "value": 8
+                            }
+                        ],
+                        "minPulseLengthRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5587b",
+                                "key": 0,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5587c",
+                                "key": 1,
+                                "value": 3
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5587d",
+                                "key": 2,
+                                "value": 3
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5587e",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5587f",
+                                "key": 4,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55880",
+                                "key": 5,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55881",
+                                "key": 6,
+                                "value": 25
+                            }
+                        ],
+                        "integralTimeRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55882",
+                                "key": 0,
+                                "value": 180
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55883",
+                                "key": 1,
+                                "value": 90
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55884",
+                                "key": 2,
+                                "value": 90
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55885",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55886",
+                                "key": 4,
+                                "value": 180
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55887",
+                                "key": 5,
+                                "value": 120
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55888",
+                                "key": 6,
+                                "value": 180
+                            }
+                        ],
+                        "integralPercentPartRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55889",
+                                "key": 0,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588a",
+                                "key": 1,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588b",
+                                "key": 2,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588c",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588d",
+                                "key": 4,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588e",
+                                "key": 5,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5588f",
+                                "key": 6,
+                                "value": 30
+                            }
+                        ],
+                        "optimizationRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55890",
+                                "key": 0,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55891",
+                                "key": 1,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55892",
+                                "key": 2,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55893",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55894",
+                                "key": 4,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55895",
+                                "key": 5,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55896",
+                                "key": 6,
+                                "value": 5
+                            }
+                        ],
+                        "pulseLengthThreshholdContinousMode": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55897",
+                                "key": 0,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55898",
+                                "key": 1,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55899",
+                                "key": 2,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5589a",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5589b",
+                                "key": 4,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5589c",
+                                "key": 5,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5589d",
+                                "key": 6,
+                                "value": 80
+                            }
+                        ],
+                        "propBandShiftRoomTempCtrl": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5589e",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5589f",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a0",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a1",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a2",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a3",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a4",
+                                "key": 6,
+                                "value": 0
+                            }
+                        ],
+                        "roomTempFreezeProtection": 5,
+                        "automaticHeatingCoolingEnabled": [],
+                        "heaterMinDemandTime": 1,
+                        "heaterMixValveThreshhold": 75,
+                        "heaterMixValveHysteresis": 25,
+                        "heaterDemandSignalDelay": 1,
+                        "heaterBlockingTime": 3,
+                        "chillerMinDemandTime": 1,
+                        "chillerDemandSignalDelay": 1,
+                        "chillerBlockingTime": 3,
+                        "pumpLocalGlobal": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558a5",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a6",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a7",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a8",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558a9",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558aa",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ab",
+                                "key": 6,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ac",
+                                "key": 7,
+                                "value": 0
+                            }
+                        ],
+                        "pumpType": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558ad",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ae",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558af",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b0",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b1",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b2",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b3",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b4",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "pumpAntiBlockEnable": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558b5",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b6",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b7",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b8",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558b9",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ba",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558bb",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558bc",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "pumpAntiBlockDays": 90,
+                        "pumpAntiBlockClock": 3,
+                        "pumpAntiBlockRuntime": 5,
+                        "pumpMixedCircuitStartDelay_3": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558bd",
+                                "key": 0,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558be",
+                                "key": 1,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558bf",
+                                "key": 2,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c0",
+                                "key": 3,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c1",
+                                "key": 4,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c2",
+                                "key": 5,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c3",
+                                "key": 6,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c4",
+                                "key": 7,
+                                "value": 4
+                            }
+                        ],
+                        "pumpMixedCircuitOverShootTime_3": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558c5",
+                                "key": 0,
+                                "value": 5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c6",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c7",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c8",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558c9",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ca",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558cb",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558cc",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "pumpMixedCircuitMinRunTimeStd": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558cd",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ce",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558cf",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d0",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d1",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d2",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d3",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d4",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "pumpMixedCircuitMinRunTimeHE": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558d5",
+                                "key": 0,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d6",
+                                "key": 1,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d7",
+                                "key": 2,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d8",
+                                "key": 3,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558d9",
+                                "key": 4,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558da",
+                                "key": 5,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558db",
+                                "key": 6,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558dc",
+                                "key": 7,
+                                "value": 30
+                            }
+                        ],
+                        "pumpMinPauseTimeSTD": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558dd",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558de",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558df",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e0",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e1",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e2",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e3",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e4",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "pumpMinPauseTimeHE": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558e5",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e6",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e7",
+                                "key": 2,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e8",
+                                "key": 3,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558e9",
+                                "key": 4,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ea",
+                                "key": 5,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558eb",
+                                "key": 6,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ec",
+                                "key": 7,
+                                "value": 1
+                            }
+                        ],
+                        "valveAntiBlockEnable": 1,
+                        "valveAntiBlockDays": 90,
+                        "valveAntiBlockClock": 3,
+                        "valveAntiBlockRuntime": 5,
+                        "valveRunTime": 4,
+                        "switchingValvesRunTime": 4,
+                        "heatingFlowTempOffset": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558ed",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ee",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ef",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "anIn": [],
+                        "anOut": [],
+                        "digInCC": [],
+                        "digOutCC": [],
+                        "digInEMU": [],
+                        "digOutEMU": [],
+                        "number_fan": 0,
+                        "fanCoilMinRunTime": 3,
+                        "fanCoilMaxRunTime": 120,
+                        "fanCoilBlockingTime": 2,
+                        "fanCoilThresholdHeating": [],
+                        "fanCoilThresholdCooling": [],
+                        "dehumActivationLimitRelHumidityNorm": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558f0",
+                                "key": 0,
+                                "value": 90
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f1",
+                                "key": 1,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f2",
+                                "key": 2,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f3",
+                                "key": 3,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f4",
+                                "key": 4,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f5",
+                                "key": 5,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f6",
+                                "key": 6,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f7",
+                                "key": 7,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558f8",
+                                "key": 8,
+                                "value": 55
+                            }
+                        ],
+                        "dehumidifierLimitNormal": [
+                            {
+                                "_id": "67698fc24fa8a085b2e558f9",
+                                "key": 0,
+                                "value": 90
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558fa",
+                                "key": 1,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558fb",
+                                "key": 2,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558fc",
+                                "key": 3,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558fd",
+                                "key": 4,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558fe",
+                                "key": 5,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e558ff",
+                                "key": 6,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55900",
+                                "key": 7,
+                                "value": 55
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55901",
+                                "key": 8,
+                                "value": 55
+                            }
+                        ],
+                        "dehumActivationLimitRelHumidityReduced": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55902",
+                                "key": 0,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55903",
+                                "key": 1,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55904",
+                                "key": 2,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55905",
+                                "key": 3,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55906",
+                                "key": 4,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55907",
+                                "key": 5,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55908",
+                                "key": 6,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55909",
+                                "key": 7,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5590a",
+                                "key": 8,
+                                "value": 80
+                            }
+                        ],
+                        "dehumidifierLimitReduced": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5590b",
+                                "key": 0,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5590c",
+                                "key": 1,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5590d",
+                                "key": 2,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5590e",
+                                "key": 3,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5590f",
+                                "key": 4,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55910",
+                                "key": 5,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55911",
+                                "key": 6,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55912",
+                                "key": 7,
+                                "value": 80
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55913",
+                                "key": 8,
+                                "value": 80
+                            }
+                        ],
+                        "dehumHysterisisRelHumidity": 5,
+                        "dehumActivationLimitDewpoint": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55914",
+                                "key": 0,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55915",
+                                "key": 1,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55916",
+                                "key": 2,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55917",
+                                "key": 3,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55918",
+                                "key": 4,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55919",
+                                "key": 5,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5591a",
+                                "key": 6,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5591b",
+                                "key": 7,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5591c",
+                                "key": 8,
+                                "value": 25
+                            }
+                        ],
+                        "dehumHysterisisDewpoint": 0.5,
+                        "dehumMinRunTime": 10,
+                        "dehumBlockingTime": 10,
+                        "dehumOutsideCoolingModeAllowed": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5591d",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5591e",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5591f",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55920",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55921",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55922",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55923",
+                                "key": 6,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55924",
+                                "key": 7,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55925",
+                                "key": 8,
+                                "value": 0
+                            }
+                        ],
+                        "dehumMaxRunTime": 240,
+                        "dehumActivationLimitDewpointReduced": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55926",
+                                "key": 0,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55927",
+                                "key": 1,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55928",
+                                "key": 2,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55929",
+                                "key": 3,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5592a",
+                                "key": 4,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5592b",
+                                "key": 5,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5592c",
+                                "key": 6,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5592d",
+                                "key": 7,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5592e",
+                                "key": 8,
+                                "value": 25
+                            }
+                        ],
+                        "chillerMixValveThreshhold": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5592f",
+                                "key": 0,
+                                "value": 75
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55930",
+                                "key": 1,
+                                "value": 75
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55931",
+                                "key": 2,
+                                "value": 75
+                            }
+                        ],
+                        "chillerMixValveHysteresis": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55932",
+                                "key": 0,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55933",
+                                "key": 1,
+                                "value": 25
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55934",
+                                "key": 2,
+                                "value": 25
+                            }
+                        ],
+                        "tempSupplyMinCoolingNormalCircuitNo": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55935",
+                                "key": 0,
+                                "value": 14
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55936",
+                                "key": 1,
+                                "value": 16
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55937",
+                                "key": 2,
+                                "value": 16
+                            }
+                        ],
+                        "dewPointSafetyDistanceCircuitNo": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55938",
+                                "key": 0,
+                                "value": -2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55939",
+                                "key": 1,
+                                "value": 2
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5593a",
+                                "key": 2,
+                                "value": 2
+                            }
+                        ],
+                        "tempLimitCoolingModeElementCircuitNo": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5593b",
+                                "key": 0,
+                                "value": 1.5
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5593c",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5593d",
+                                "key": 2,
+                                "value": 0
+                            }
+                        ],
+                        "tempLimitCoolingModeReturnCircuitNo": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5593e",
+                                "key": 0,
+                                "value": 14
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5593f",
+                                "key": 1,
+                                "value": 18
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55940",
+                                "key": 2,
+                                "value": 18
+                            }
+                        ],
+                        "flowTempCoolingIncreasedReducedCircuitNo": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55941",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55942",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55943",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "dehum_to_week_program": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55944",
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55945",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55946",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55947",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55948",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55949",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5594a",
+                                "key": 6,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5594b",
+                                "key": 7,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5594c",
+                                "key": 8,
+                                "value": 0
+                            }
+                        ],
+                        "vent_to_week_program": [],
+                        "coolingCriteria": 0,
+                        "srsUsedSystems": 15,
+                        "srsUseDesignValues": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5594d",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5594e",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5594f",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "srsWeightRoomTemp": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55950",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55951",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55952",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "srsWeightCoreTemp": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55953",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55954",
+                                "key": 1,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55955",
+                                "key": 2,
+                                "value": 1
+                            }
+                        ],
+                        "srsHeatCurveStartingPointNormalMode": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55956",
+                                "key": 0,
+                                "value": 21
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55957",
+                                "key": 1,
+                                "value": 21
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55958",
+                                "key": 2,
+                                "value": 21
+                            }
+                        ],
+                        "srsCoreTempCooling": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55959",
+                                "key": 0,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5595a",
+                                "key": 1,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5595b",
+                                "key": 2,
+                                "value": 20
+                            }
+                        ],
+                        "srsCoreTempAbsence": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5595c",
+                                "key": 0,
+                                "value": 18
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5595d",
+                                "key": 1,
+                                "value": 18
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5595e",
+                                "key": 2,
+                                "value": 18
+                            }
+                        ],
+                        "srsCoreTempMinimum": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5595f",
+                                "key": 0,
+                                "value": 16
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55960",
+                                "key": 1,
+                                "value": 16
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55961",
+                                "key": 2,
+                                "value": 16
+                            }
+                        ],
+                        "srsCoreTempMaximum": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55962",
+                                "key": 0,
+                                "value": 30
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55963",
+                                "key": 1,
+                                "value": 40
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55964",
+                                "key": 2,
+                                "value": 30
+                            }
+                        ],
+                        "srsFlowTemp": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55965",
+                                "key": 0,
+                                "value": 32
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55966",
+                                "key": 1,
+                                "value": 32
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55967",
+                                "key": 2,
+                                "value": 32
+                            }
+                        ],
+                        "srsReturnTemp": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55968",
+                                "key": 0,
+                                "value": 28
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55969",
+                                "key": 1,
+                                "value": 28
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5596a",
+                                "key": 2,
+                                "value": 28
+                            }
+                        ],
+                        "srsSlopeFlow": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5596b",
+                                "key": 0,
+                                "value": 26
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5596c",
+                                "key": 1,
+                                "value": 26
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5596d",
+                                "key": 2,
+                                "value": 26
+                            }
+                        ],
+                        "srsSlopeReturn": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5596e",
+                                "key": 0,
+                                "value": 16
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5596f",
+                                "key": 1,
+                                "value": 16
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55970",
+                                "key": 2,
+                                "value": 16
+                            }
+                        ],
+                        "srsXpCore": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55971",
+                                "key": 0,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55972",
+                                "key": 1,
+                                "value": 4
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55973",
+                                "key": 2,
+                                "value": 4
+                            }
+                        ],
+                        "srsXpCoreShift": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55974",
+                                "key": 0,
+                                "value": 7
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55975",
+                                "key": 1,
+                                "value": 7
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55976",
+                                "key": 2,
+                                "value": 7
+                            }
+                        ],
+                        "srsCoreSafetyDistance": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55977",
+                                "key": 0,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55978",
+                                "key": 1,
+                                "value": 20
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55979",
+                                "key": 2,
+                                "value": 20
+                            }
+                        ],
+                        "reductionInPercent": [],
+                        "blockReduced": [],
+                        "heatCoolCA": [],
+                        "GeneralMode": 0,
+                        "autostart_enable_room": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "key": 5,
+                                "value": 1
+                            }
+                        ],
+                        "FCSysBus": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5597a",
+                                "key": 0,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5597b",
+                                "key": 1,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5597c",
+                                "key": 2,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5597d",
+                                "key": 3,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5597e",
+                                "key": 4,
+                                "value": "0000000000000000"
+                            }
+                        ],
+                        "FCSysBusType": [
+                            {
+                                "_id": "67698fc24fa8a085b2e5597f",
+                                "key": 0,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55980",
+                                "key": 1,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55981",
+                                "key": 2,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55982",
+                                "key": 3,
+                                "value": "0000000000000000"
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55983",
+                                "key": 4,
+                                "value": "0000000000000000"
+                            }
+                        ],
+                        "fanCoilEcoTol": 27,
+                        "dehumidifier_used": [
+                            {
+                                "_id": "67698fc24fa8a085b2e55984",
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55985",
+                                "key": 1,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55986",
+                                "key": 2,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55987",
+                                "key": 3,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55988",
+                                "key": 4,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e55989",
+                                "key": 5,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5598a",
+                                "key": 6,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5598b",
+                                "key": 7,
+                                "value": 0
+                            },
+                            {
+                                "_id": "67698fc24fa8a085b2e5598c",
+                                "key": 8,
+                                "value": 0
+                            }
+                        ]
+                    },
+                    "INSTALL_STATUS": {
+                        "bGlobalAbsenceActive": 0,
+                        "bGlobalReducedActive": 0,
+                        "bHolidayActive": 0,
+                        "bVALVE_EXERCISE": 0,
+                        "bPUMP_EXERCISE": 0,
+                        "DegreeF": 0,
+                        "Heating": 1,
+                        "Cooling": 0,
+                        "bFree": 0,
+                        "bOFF": 0,
+                        "Resolution": 2,
+                        "bReducedModeInactive": 0,
+                        "bSummerCompensationActive": 0,
+                        "Free": 0
+                    },
+                    "di_do_controller_0": {
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "di_fn_4": "0",
+                        "di_nb_4": "0",
+                        "do_fn_0": "2",
+                        "do_nb_0": "0",
+                        "do_fn_1": "3",
+                        "do_nb_1": "0",
+                        "do_fn_2": "6",
+                        "do_nb_2": "0",
+                        "do_fn_3": "5",
+                        "do_nb_3": "0",
+                        "do_fn_4": "0",
+                        "do_nb_4": "0",
+                        "do_fn_5": "0",
+                        "do_nb_5": "0"
+                    },
+                    "di_do_controller_1": {
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "di_fn_4": "0",
+                        "di_nb_4": "0",
+                        "do_fn_0": "0",
+                        "do_nb_0": "0",
+                        "do_fn_1": "0",
+                        "do_nb_1": "0",
+                        "do_fn_2": "0",
+                        "do_nb_2": "0",
+                        "do_fn_3": "0",
+                        "do_nb_3": "0",
+                        "do_fn_4": "0",
+                        "do_nb_4": "0",
+                        "do_fn_5": "0",
+                        "do_nb_5": "0"
+                    },
+                    "di_do_controller_2": {
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "di_fn_4": "0",
+                        "di_nb_4": "0",
+                        "do_fn_0": "0",
+                        "do_nb_0": "0",
+                        "do_fn_1": "0",
+                        "do_nb_1": "0",
+                        "do_fn_2": "0",
+                        "do_nb_2": "0",
+                        "do_fn_3": "0",
+                        "do_nb_3": "0",
+                        "do_fn_4": "0",
+                        "do_nb_4": "0",
+                        "do_fn_5": "0",
+                        "do_nb_5": "0"
+                    },
+                    "di_do_controller_3": {
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "di_fn_4": "0",
+                        "di_nb_4": "0",
+                        "do_fn_0": "0",
+                        "do_nb_0": "0",
+                        "do_fn_1": "0",
+                        "do_nb_1": "0",
+                        "do_fn_2": "0",
+                        "do_nb_2": "0",
+                        "do_fn_3": "0",
+                        "do_nb_3": "0",
+                        "do_fn_4": "0",
+                        "do_nb_4": "0",
+                        "do_fn_5": "0",
+                        "do_nb_5": "0"
+                    },
+                    "di_do_controller_4": {
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "di_fn_4": "0",
+                        "di_nb_4": "0",
+                        "do_fn_0": "0",
+                        "do_nb_0": "0",
+                        "do_fn_1": "0",
+                        "do_nb_1": "0",
+                        "do_fn_2": "0",
+                        "do_nb_2": "0",
+                        "do_fn_3": "0",
+                        "do_nb_3": "0",
+                        "do_fn_4": "0",
+                        "do_nb_4": "0",
+                        "do_fn_5": "0",
+                        "do_nb_5": "0"
+                    },
+                    "emu_0": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "0",
+                        "do_nb_1": "0",
+                        "do_fn_2": "0",
+                        "do_nb_2": "0",
+                        "do_fn_3": "0",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "1",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "1",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_1": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_2": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_3": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_4": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_5": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_6": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "emu_7": {
+                        "fn": "0",
+                        "di_fn_0": "0",
+                        "di_nb_0": "0",
+                        "di_fn_1": "0",
+                        "di_nb_1": "0",
+                        "di_fn_2": "0",
+                        "di_nb_2": "0",
+                        "di_fn_3": "0",
+                        "di_nb_3": "0",
+                        "do_fn_0": "10",
+                        "do_nb_0": "0",
+                        "do_fn_1": "10",
+                        "do_nb_1": "0",
+                        "do_fn_2": "10",
+                        "do_nb_2": "0",
+                        "do_fn_3": "10",
+                        "do_nb_3": "0",
+                        "ai_fn_0": "0",
+                        "ai_nb_0": "0",
+                        "ai_fn_1": "0",
+                        "ai_nb_1": "0",
+                        "ai_fn_2": "0",
+                        "ai_nb_2": "0",
+                        "ai_fn_3": "0",
+                        "ai_nb_3": "0",
+                        "ao_fn_0": "0",
+                        "ao_nb_0": "0"
+                    },
+                    "_id": "6405e7832f4b85c6dd2d9a04",
+                    "groups": [
+                        {
+                            "_id": "6405e7b26cc46be1c7509240",
+                            "install": "6405e7832f4b85c6dd2d9a04",
+                            "__v": 1,
+                            "addedViaTriggerZones": [
+                                "6405e785c418f8c5f6a6414f",
+                                "6405e786588f61bc56aa58d2",
+                                "6405e78786627bc2864ea6d8",
+                                "6405e78896c325c7438de85f",
+                                "6405e789c4770dc1f758f4d0"
+                            ],
+                            "addedZoneViaTrigger": true,
+                            "createdViaTrigger": true,
+                            "name": "Giorno",
+                            "zones": [
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "6405e78786627bc2864ea6d8",
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": true,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": false,
+                                                "enable_summer_comp": false,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": false,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": true,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 2
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": false,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "6405e78786627bc2864ea6d7",
+                                            "index_config": 0,
+                                            "ca_code": "537373397",
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Week_Program": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "channel_zone": 2,
+                                            "remote_function": 0,
+                                            "dehumidifier": 1,
+                                            "mode_permanent": 0,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 662,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_c_normal": 770,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_min": 590,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "limit_c_min": 608,
+                                            "pgr_week": 3,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "number": "02",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "createdAt": "2023-03-06T13:15:51.620Z",
+                                            "zone": "6405e78786627bc2864ea6d8",
+                                            "__v": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_used": 0,
+                                            "setpoint_used": 698,
+                                            "dewpoint": 81,
+                                            "humidity": 41,
+                                            "temp_zone": 705,
+                                            "openWindow": false,
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "FC_Active": 0,
+                                            "demand": 0,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "humAdapt": false
+                                        }
+                                    ],
+                                    "number": 2,
+                                    "controller": "6405e7845f0701c659329204",
+                                    "nameSetByUser": false,
+                                    "createdAt": "2023-03-06T13:15:51.741Z",
+                                    "__v": 0,
+                                    "custom": false,
+                                    "name": "Salone",
+                                    "addedViaTrigger": true,
+                                    "icon": "rehau-RZ_REHAU_Icon-Wohnen",
+                                    "picture": ""
+                                },
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "6405e786588f61bc56aa58d2",
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": false,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": false,
+                                                "enable_summer_comp": false,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": false,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": false,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 2
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": false,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "6405e786588f61bc56aa58d1",
+                                            "index_config": 0,
+                                            "ca_code": "537436206",
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Week_Program": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "channel_zone": 1,
+                                            "remote_function": 0,
+                                            "dehumidifier": 0,
+                                            "mode_permanent": 0,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 662,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_c_normal": 752,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_min": 716,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "limit_c_min": 662,
+                                            "pgr_week": 3,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "number": "01",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "createdAt": "2023-03-06T13:15:50.387Z",
+                                            "zone": "6405e786588f61bc56aa58d2",
+                                            "__v": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_used": 0,
+                                            "setpoint_used": 698,
+                                            "temp_zone": 697,
+                                            "openWindow": false,
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "FC_Active": 0,
+                                            "demand": 0,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "humAdapt": false
+                                        }
+                                    ],
+                                    "number": 1,
+                                    "controller": "6405e7845f0701c659329204",
+                                    "nameSetByUser": false,
+                                    "createdAt": "2023-03-06T13:15:50.481Z",
+                                    "__v": 0,
+                                    "custom": false,
+                                    "name": "Bagno Grande",
+                                    "addedViaTrigger": true,
+                                    "icon": "rehau-RZ_REHAU_Icon-Dusche_Bad",
+                                    "picture": ""
+                                },
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "6405e789c4770dc1f758f4d0",
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": false,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": false,
+                                                "enable_summer_comp": false,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": false,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": false,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 2
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": true,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "6405e789c4770dc1f758f4cf",
+                                            "index_config": 0,
+                                            "ca_code": "537436164",
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Week_Program": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "channel_zone": 4,
+                                            "remote_function": 0,
+                                            "dehumidifier": 0,
+                                            "mode_permanent": 0,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 662,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_c_normal": 752,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_min": 716,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "limit_c_min": 662,
+                                            "pgr_week": 3,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "number": "04",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "createdAt": "2023-03-06T13:15:53.411Z",
+                                            "zone": "6405e789c4770dc1f758f4d0",
+                                            "__v": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_used": 0,
+                                            "setpoint_used": 698,
+                                            "temp_zone": 698,
+                                            "openWindow": false,
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "FC_Active": 0,
+                                            "demand": 100,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "humAdapt": false
+                                        }
+                                    ],
+                                    "number": 4,
+                                    "controller": "6405e7845f0701c659329204",
+                                    "nameSetByUser": false,
+                                    "createdAt": "2023-03-06T13:15:53.452Z",
+                                    "__v": 0,
+                                    "custom": false,
+                                    "name": "Bagno",
+                                    "addedViaTrigger": true,
+                                    "icon": "rehau-RZ_REHAU_Icon-WC",
+                                    "picture": ""
+                                }
+                            ]
+                        },
+                        {
+                            "_id": "64195fa518e537ff0ba2ecac",
+                            "zones": [
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "6405e78896c325c7438de85f",
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": true,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": true,
+                                                "enable_summer_comp": false,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": false,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": true,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 2
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": true,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "6405e78896c325c7438de85e",
+                                            "index_config": 0,
+                                            "ca_code": "537373405",
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Week_Program": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "channel_zone": 3,
+                                            "remote_function": 0,
+                                            "dehumidifier": 1,
+                                            "mode_permanent": 0,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 662,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_c_normal": 770,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_min": 590,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "limit_c_min": 608,
+                                            "pgr_week": 3,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "number": "03",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "createdAt": "2023-03-06T13:15:52.376Z",
+                                            "zone": "6405e78896c325c7438de85f",
+                                            "__v": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_used": 0,
+                                            "setpoint_used": 698,
+                                            "dewpoint": 77,
+                                            "humidity": 40,
+                                            "temp_zone": 699,
+                                            "openWindow": false,
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "FC_Active": 0,
+                                            "demand": 100,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "humAdapt": false
+                                        }
+                                    ],
+                                    "number": 3,
+                                    "controller": "6405e7845f0701c659329204",
+                                    "nameSetByUser": false,
+                                    "createdAt": "2023-03-06T13:15:52.421Z",
+                                    "__v": 0,
+                                    "custom": false,
+                                    "name": "Matrimoniale",
+                                    "addedViaTrigger": true,
+                                    "icon": "rehau-RZ_REHAU_Icon-Schlafen",
+                                    "picture": ""
+                                },
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "6405e785c418f8c5f6a6414f",
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": true,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": false,
+                                                "enable_summer_comp": false,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": false,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": true,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 2
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": true,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "6405e785c418f8c5f6a6414e",
+                                            "index_config": 0,
+                                            "ca_code": "537370194",
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Week_Program": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "channel_zone": 0,
+                                            "remote_function": 0,
+                                            "dehumidifier": 1,
+                                            "mode_permanent": 0,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 662,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_c_normal": 770,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_min": 590,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "limit_c_min": 608,
+                                            "pgr_week": 3,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "number": "00",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "createdAt": "2023-03-06T13:15:49.406Z",
+                                            "zone": "6405e785c418f8c5f6a6414f",
+                                            "__v": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_used": 0,
+                                            "setpoint_used": 698,
+                                            "dewpoint": 67,
+                                            "humidity": 37,
+                                            "temp_zone": 700,
+                                            "openWindow": false,
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "FC_Active": 0,
+                                            "demand": 100,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "humAdapt": false
+                                        }
+                                    ],
+                                    "number": 0,
+                                    "controller": "6405e7845f0701c659329204",
+                                    "nameSetByUser": false,
+                                    "createdAt": "2023-03-06T13:15:49.449Z",
+                                    "__v": 0,
+                                    "custom": false,
+                                    "name": "Cameretta",
+                                    "addedViaTrigger": true,
+                                    "icon": "rehau-RZ_REHAU_Icon-Kind",
+                                    "picture": ""
+                                }
+                            ],
+                            "name": "Notte",
+                            "install": "6405e7832f4b85c6dd2d9a04",
+                            "user": "6405b4ad2fd56bb9cd309774",
+                            "isUnassigned": false,
+                            "__v": 0
+                        },
+                        {
+                            "_id": "672f4d483c584b1d2dbbc695",
+                            "name": "Mansarda",
+                            "user": "64ba16efd0170cd7f99d5397",
+                            "install": "6405e7832f4b85c6dd2d9a04",
+                            "zones": [
+                                {
+                                    "programWeek": {
+                                        "monday": 0,
+                                        "tuesday": 0,
+                                        "wednesday": 0,
+                                        "thursday": 0,
+                                        "friday": 0,
+                                        "saturday": 0,
+                                        "sunday": 0
+                                    },
+                                    "_id": "672f47e152fd1b6645238829",
+                                    "controller": "6405e7845f0701c659329204",
+                                    "number": 5,
+                                    "__v": 0,
+                                    "channels": [
+                                        {
+                                            "channel_config": {
+                                                "rf": false,
+                                                "active": false,
+                                                "hc_system": 0,
+                                                "manifold": 0,
+                                                "heating": true,
+                                                "cooling": false,
+                                                "hyst": false,
+                                                "ACF": false,
+                                                "bkt_Presence": false
+                                            },
+                                            "fancoil_config": {
+                                                "present": false,
+                                                "heating": false,
+                                                "cooling": false,
+                                                "heatingAndCooling": false,
+                                                "activeInReduced": false,
+                                                "normal": false,
+                                                "economy": false,
+                                                "impossible": false,
+                                                "stopped": false,
+                                                "comfort": true
+                                            },
+                                            "cc_config_bits": {
+                                                "lock": false,
+                                                "ring_activation": false,
+                                                "ring_inverted": false,
+                                                "pilot_room": false,
+                                                "enable_summer_comp": true,
+                                                "exclude_from_holliday": false,
+                                                "auto_start": true,
+                                                "open_window": true,
+                                                "exclude_from_party_global": false
+                                            },
+                                            "th_config_bits": {
+                                                "humidity": true,
+                                                "ring": true,
+                                                "VAVE": false,
+                                                "rf": false,
+                                                "display_version": true,
+                                                "sw_version": 7
+                                            },
+                                            "status_th": {
+                                                "battery_level": 7,
+                                                "open_windows_sw_activated": false,
+                                                "test_function_activation": false,
+                                                "dew_point_sensor": false,
+                                                "test_output": false,
+                                                "rf_error": false,
+                                                "di_value": false,
+                                                "ask_for_config": false
+                                            },
+                                            "status_cc_zone": {
+                                                "program_state": true,
+                                                "auto_adaptative": false,
+                                                "window_open_hw": false,
+                                                "dew_point_monitor": false,
+                                                "ventilation": false,
+                                                "floor_limit_high": false,
+                                                "floot_limit_low": false,
+                                                "frost_protection": false,
+                                                "demand_state": false,
+                                                "config_change": false,
+                                                "optimisation_to_reduced": false,
+                                                "open_window_detect": false,
+                                                "dew_point_detection": false,
+                                                "dew_point_stop": false,
+                                                "fc_switched": false
+                                            },
+                                            "_id": "672f47e052fd1b664523801b",
+                                            "controllerNumber": "0",
+                                            "installUnique": "9db42d09303856504e32605927135454",
+                                            "number": "05",
+                                            "FCFlap_active": false,
+                                            "FCSysNorPreSpeed": 0,
+                                            "FCSysRedPreSpeed": 0,
+                                            "__v": 0,
+                                            "bkt_Reduction_Heating_Cooling": 0,
+                                            "bkt_Reduction_Percentage": 0,
+                                            "bkt_Week_Program": 0,
+                                            "ca_code": "537773272",
+                                            "channel_zone": 5,
+                                            "createdAt": "2024-11-09T11:30:40.316Z",
+                                            "dehumidifier": 0,
+                                            "index_config": 0,
+                                            "limit_c_min": 662,
+                                            "limit_h_max": 860,
+                                            "limit_h_min": 680,
+                                            "pgr_day_1": 0,
+                                            "pgr_day_2": 0,
+                                            "pgr_day_3": 0,
+                                            "pgr_day_4": 0,
+                                            "pgr_day_5": 0,
+                                            "pgr_day_6": 0,
+                                            "pgr_day_7": 0,
+                                            "pgr_week": 1,
+                                            "remote_function": 0,
+                                            "setpoint_c_normal": 752,
+                                            "setpoint_c_reduced": 788,
+                                            "setpoint_h_normal": 698,
+                                            "setpoint_h_reduced": 698,
+                                            "setpoint_h_standby": 590,
+                                            "setpoint_max": 788,
+                                            "setpoint_max_summer_compensation": 788,
+                                            "setpoint_min": 752,
+                                            "zone": "672f47e152fd1b6645238829",
+                                            "FC_Active": 0,
+                                            "demand": 0,
+                                            "fanCoilControllerState": 0,
+                                            "mode_permanent": 2,
+                                            "mode_used": 2,
+                                            "setpoint_used": 0,
+                                            "dewpoint": 51,
+                                            "humidity": 61,
+                                            "roomGradCool": 25,
+                                            "roomGradHeat": 29,
+                                            "temp_zone": 535,
+                                            "humAdapt": true
+                                        }
+                                    ],
+                                    "createdAt": "2024-11-09T11:30:41.644Z",
+                                    "custom": false,
+                                    "name": "Mansarda",
+                                    "icon": "rehau-RZ_REHAU_Icon-Flur",
+                                    "picture": ""
+                                }
+                            ],
+                            "isUnassigned": false,
+                            "__v": 0
+                        }
+                    ],
+                    "controllers": [
+                        {
+                            "_id": "6405e7845f0701c659329204",
+                            "zones": [
+                                "6405e785c418f8c5f6a6414f",
+                                "6405e786588f61bc56aa58d2",
+                                "6405e78786627bc2864ea6d8",
+                                "6405e78896c325c7438de85f",
+                                "6405e789c4770dc1f758f4d0",
+                                "672f47e152fd1b6645238829"
+                            ],
+                            "DI": [
+                                false,
+                                false,
+                                false,
+                                false,
+                                false
+                            ],
+                            "DO": [
+                                true,
+                                false,
+                                false,
+                                false,
+                                false,
+                                false
+                            ],
+                            "number": 0,
+                            "install": "6405e7832f4b85c6dd2d9a04",
+                            "createdAt": "2023-03-06T13:15:48.413Z",
+                            "__v": 2058,
+                            "channel_data": {
+                                "10": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "11": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "00": {
+                                    "demand": 100,
+                                    "act_state": 1
+                                },
+                                "01": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "02": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "03": {
+                                    "demand": 100,
+                                    "act_state": 1
+                                },
+                                "04": {
+                                    "demand": 100,
+                                    "act_state": 1
+                                },
+                                "05": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "06": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "07": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "08": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                },
+                                "09": {
+                                    "demand": 0,
+                                    "act_state": 0
+                                }
+                            },
+                            "unique": "9db42d09303856504e32605927135454",
+                            "channel_config": {
+                                "10": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "11": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "00": {
+                                    "CH": "00",
+                                    "heat": true,
+                                    "cool": true,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "01": {
+                                    "CH": "01",
+                                    "heat": true,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "02": {
+                                    "CH": "02",
+                                    "heat": true,
+                                    "cool": true,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "03": {
+                                    "CH": "03",
+                                    "heat": true,
+                                    "cool": true,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "04": {
+                                    "CH": "04",
+                                    "heat": true,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "05": {
+                                    "CH": "05",
+                                    "heat": true,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "06": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "07": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "08": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                },
+                                "09": {
+                                    "CH": null,
+                                    "heat": false,
+                                    "cool": false,
+                                    "sys": 0,
+                                    "manifold": 0
+                                }
+                            }
+                        }
+                    ],
+                    "unique": "9db42d09303856504e32605927135454",
+                    "number_cc": 1,
+                    "number_em_rooms": 0,
+                    "number_universal": 1,
+                    "number_hb": 0,
+                    "number_en_ocean": 38,
+                    "number_mixed": 1,
+                    "number_dehumidifier": 1,
+                    "number_fancoil": 0,
+                    "number_ventilation": 0,
+                    "number_room_system": 5,
+                    "number_pump": 0,
+                    "number_outsidetemp": 0,
+                    "number_manifold": 1,
+                    "presence_cc": 1,
+                    "configured_cc": 1,
+                    "presence_em_room": 0,
+                    "configured_em_room": 0,
+                    "presence_universal": 1,
+                    "configured_universal": 1,
+                    "presence_hb": 0,
+                    "configured_hb": 0,
+                    "presence_extra": 3,
+                    "configured_extra": 0,
+                    "version": "07.7",
+                    "createdAt": "2023-03-06T13:15:47.401Z",
+                    "ota": true,
+                    "ota_available": false,
+                    "ota_pending": false,
+                    "__v": 20,
+                    "lastConnection": "2024-12-23T16:26:35.914Z",
+                    "lastTemperatureUpdateDate": "2024-12-23T16:26:04.000Z",
+                    "outsideTempFiltered": 443,
+                    "outside_temp": 378,
+                    "owner": "6405b4ad2fd56bb9cd309774",
+                    "latestStatsFetch": "2024-03-04T21:29:37.138Z",
+                    "address": "Troia Troia, Italy",
+                    "city": "",
+                    "country": "Italy",
+                    "icon": "rehau-RZ_REHAU_Icon-Wintergarten",
+                    "lat": 41.367903,
+                    "long": 15.324638,
+                    "name": "Casa",
+                    "street": "",
+                    "zip": "",
+                    "absenceLevel": 0,
+                    "lastReportDate": "2024-12-12T21:37:02.000Z",
+                    "timezone": "Europe/Rome",
+                    "aws": true,
+                    "numbFCInnova": 0,
+                    "numbFlapFC": 0,
+                    "lastOutsideServerTempRequest": "2024-12-23T14:31:40.484Z",
+                    "bktOutsideTemp": 28,
+                    "heatCoolPossible": "0000",
+                    "geoInstallActive": true,
+                    "humAdapt": true,
+                    "connectionState": true
+                }
+            ],
+            "temperature": "C",
+            "username": "p.zaccaglino@gmail.com",
+            "error": true,
+            "warning": true,
+            "message": true,
+            "all": true,
+            "pushError": true,
+            "pushWarning": true,
+            "pushMessage": true,
+            "pushAll": true,
+            "pushEvent": true,
+            "firebasetoken": [],
+            "defaultInstall": "9db42d09303856504e32605927135454",
+            "sub": "fe561fe6-b496-425c-a7a5-fe9a910d4163",
+            "isSSO": true,
+            "_class": "com.rehau.app.neasmart2.genericapi.models.User"
+        }
+    }
+}

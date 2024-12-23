@@ -3,13 +3,12 @@
 from __future__ import annotations
 import logging
 
-from homeassistant.components.sensor import SensorEntity, SensorEntityDescription
+from homeassistant.components.sensor import SensorEntity, SensorEntityDescription, SensorDeviceClass
 from homeassistant.helpers.restore_state import RestoreEntity
 from homeassistant.helpers.entity import DeviceInfo
 
 from homeassistant.const import (
     TEMPERATURE,
-    SensorDeviceClass,
     UnitOfTemperature,
 )
 
