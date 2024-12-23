@@ -148,7 +148,8 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
         self._attr_target_temperature = self.format_temperature(self._target_temp, True)
         self._attr_max_temp = self.format_temperature(self._max_temp)
         self._attr_min_temp = self.format_temperature(self._min_temp)
-        self._attr_current_humidity = self._current_humidity
+        if hasattr(self, '_current_humidity'):
+            self._attr_current_humidity = self._current_humidity
 
     def format_temperature(self, temperature, round_half=False) -> float:
         """Format the temperature."""
