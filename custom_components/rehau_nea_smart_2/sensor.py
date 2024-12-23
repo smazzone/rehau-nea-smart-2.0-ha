@@ -56,6 +56,21 @@ async def async_setup_entry(hass, entry, async_add_devices):
                     controller, installation, "outsideTempFiltered", "Filtered Outside Temperature", entity_description
                 )
             )
+            devices.append(
+                RehauNeasmart2OutdoorTemperatureSensor(
+                    controller, installation, "mixed_circuit1_setpoint", "MC1 Setpoint Temperature", entity_description
+                )
+            )
+            devices.append(
+                RehauNeasmart2OutdoorTemperatureSensor(
+                    controller, installation, "mixed_circuit1_supply", "MC1 Supply Temperature", entity_description
+                )
+            )
+            devices.append(
+                RehauNeasmart2OutdoorTemperatureSensor(
+                    controller, installation, "mixed_circuit1_return", "MC1 Return Temperature", entity_description
+                )
+            )
             for group in installation.groups:
                 for zone in group.zones:
                     devices.append(

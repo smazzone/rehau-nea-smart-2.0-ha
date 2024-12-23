@@ -67,3 +67,8 @@ class Installation(BaseModel):
     groups: list[Group]
     outside_temp: int
     outsideTempFiltered: int
+    pumpOn: int
+    mixed_circuit1_setpoint: int
+    mixed_circuit1_supply: int
+    mixed_circuit1_return: int
+    mixed_circuit1_opening: int

@@ -441,6 +441,27 @@ class MqttClient:
         }
         self.send_message(ServerTopics.USER_REFERENTIAL.value, payload)
 
+    async def update_live_data(self, payload: dict):        
+        install_id = payload["install_id"]
+
+        installation = next(
+            (
+                installation
+                for installation in self.installations
+                if installation["unique"] == install_id
+            ),
+            None,
+        )
+        if installation is None:
+            raise MqttClientError("No installation found for id " + install_id)
+
+        installation["pumpOn"] = payload["pumpOn"]
+        installation["mixed_circuit1_setpoint"] = payload["mixed_circuit1_setpoint"]
+        installation["mixed_circuit1_supply"] = payload["mixed_circuit1_supply"]
+        installation["mixed_circuit1_return"] = payload["mixed_circuit1_return"]
+        installation["mixed_circuit1_opening"] = payload["mixed_circuit1_opening"]
+
+
     async def update_channel(self, payload: dict):
         """Update the channel with the provided payload.
 

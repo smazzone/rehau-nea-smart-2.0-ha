@@ -37,7 +37,7 @@ async def handle_user_message(payload: str, client):
     elif message["type"] == "referential":
         await handle_referential(message, client)
     elif message["type"] == "live_data":
-        _LOGGER.debug("live data: {0}".format(message))
+        await handle_live_data(message, client)        
     else:
         _LOGGER.debug("Unhandled user message: " + message["type"])
 
@@ -73,3 +73,25 @@ async def handle_referential(message, client):
     referentials = decompress_utf16(message["data"])
     client.referentials = referentials
     _LOGGER.debug("Referentials updated")
+
+
+async def handle_live_data(message, client):
+    """Handle referential."""    
+    unique = message["data"]["unique"]
+    circ_data = message["data"]["data"]["MC0"]
+    pumpOn = circ_data["pumpOn"]
+    mixed_circuit1_setpoint = circ_data["mixed_circuit1_setpoint"]
+    mixed_circuit1_supply = circ_data["mixed_circuit1_supply"]
+    mixed_circuit1_return = circ_data["mixed_circuit1_return"]
+    mixed_circuit1_opening = circ_data["mixed_circuit1_opening"]
+    
+    await client.update_live_data({
+        "install_id": unique,
+        "pumpOn": pumpOn,
+        "mixed_circuit1_setpoint": mixed_circuit1_setpoint,
+        "mixed_circuit1_supply": mixed_circuit1_supply,
+        "mixed_circuit1_return": mixed_circuit1_return,
+        "mixed_circuit1_opening": mixed_circuit1_opening
+    })
+
+    _LOGGER.debug("live data: {0}".format(message))

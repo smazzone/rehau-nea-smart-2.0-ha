@@ -25,6 +25,11 @@ def parse_installations(installations, last_operation_mode) -> list[Installation
             "unique": installation["unique"],
             "outside_temp": installation["outside_temp"],
             "outsideTempFiltered": installation["outsideTempFiltered"],
+            "pumpOn": 0,
+            "mixed_circuit1_setpoint": 0,
+            "mixed_circuit1_supply": 0,
+            "mixed_circuit1_return": 0,
+            "mixed_circuit1_opening": 0,
             "hash": installation["hash"] if "hash" in installation else None,
             "global_energy_level": get_global_energy_level(installation).value,
             "operating_mode": parse_operating_mode(
