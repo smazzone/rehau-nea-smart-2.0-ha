@@ -55,6 +55,11 @@ async def async_setup_entry(hass, entry, async_add_devices):
                             controller, zone, installation.unique, entity_description
                         )
                     )
+                    devices.append(
+                        RehauNeasmart2HumiditySensor(
+                            controller, zone, installation.unique, entity_description
+                        )
+                    )
 
     async_add_devices(devices)
 
@@ -128,6 +133,30 @@ class RehauNeasmart2TemperatureSensor(RehauNeasmartGenericSensor):
     def state(self):
         """Return the state of the sensor."""
         return self._controller.get_temperature(self._zone_number)
+
+class RehauNeasmart2HumiditySensor(RehauNeasmartGenericSensor):
+    """Temperature sensor class for Rehau Neasmart 2."""
+
+    device_class = HUMIDITY
+    #_attr_native_unit_of_measurement = UnitOfTemperature.CELSIUS
+
+    def __init__(
+            self,
+            controller,
+            zone: Zone,
+            installation_unique: str,
+            entity_description: SensorEntityDescription,
+    ):
+        """Initialize the temperature sensor class."""
+        super().__init__(controller, zone, installation_unique)
+        self._attr_unique_id = f"{self._id}_humidity"
+        self._attr_name = f"{self._name} Humidity"
+        self.entity_description = entity_description
+
+    @property
+    def state(self):
+        """Return the state of the sensor."""
+        return self._controller.get_humidity(self._zone_number)
 
 class RehauNeasmart2OutdoorTemperatureSensor(SensorEntity, RestoreEntity):
     """Temperature sensor class for outdoor Rehau Neasmart."""

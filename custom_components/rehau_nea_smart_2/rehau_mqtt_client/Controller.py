@@ -182,6 +182,22 @@ class Controller:
 
         return temperature
 
+    def get_humidity(self, zone: int) -> float:
+        """Retrieve the temperature for a specific zone.
+
+        Args:
+            zone (int): The zone number.
+            unit (str, optional): The unit of temperature. Defaults to "C".
+
+        Returns:
+            float: The temperature value.
+
+        Raises:
+            MqttClientError: If no zone is found for the given zone number.
+        """
+
+        return self.get_zone_value_by_key("humidity", zone) / 10
+
     def set_temperature(self, payload: dict):
         """Set the temperature for a specific zone.
 
