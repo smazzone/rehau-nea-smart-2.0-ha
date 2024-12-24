@@ -391,11 +391,11 @@ class MqttClient:
                 _LOGGER.debug("Setting last operating mode to " + str(self.last_operating_mode))
 
             if self.installations is not None:
-                self.last_pumpOn = self.installations[0]["pumpOn"]
-                self.last_mc1_setpoint = self.installations[0]["mc1_setpoint"]
-                self.last_mc1_supply = self.installations[0]["mc1_supply"]
-                self.last_mc1_return = self.installations[0]["mc1_return"]
-                self.last_mc1_opening = self.installations[0]["mc1_opening"]
+                self.last_pumpOn = self.installations[0].get("pumpOn",0)
+                self.last_mc1_setpoint = self.installations[0].get("mc1_setpoint",0)
+                self.last_mc1_supply = self.installations[0].get("mc1_supply",0)
+                self.last_mc1_return = self.installations[0].get("mc1_return",0)
+                self.last_mc1_opening = self.installations[0].get("mc1_opening",0)
 
             await self.set_installations(user["installs"])
 
