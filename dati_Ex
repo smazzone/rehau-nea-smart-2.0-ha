@@ -323,7 +323,7 @@
                     },
                     "installer": {
                         "softwareVersion": "06.07",
-                        "signalPower": 997,
+                        "signalPower": 999,
                         "number_cc": 1,
                         "number_em_rooms": 0,
                         "number_em_universal": 1,
@@ -348,59 +348,59 @@
                         "configured_extra": null,
                         "pump_used": [
                             {
-                                "_id": "67698fc24fa8a085b2e5580a",
+                                "_id": "676a54f9a1780118de285f31",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5580b",
+                                "_id": "676a54f9a1780118de285f32",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5580c",
+                                "_id": "676a54f9a1780118de285f33",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5580d",
+                                "_id": "676a54f9a1780118de285f34",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5580e",
+                                "_id": "676a54f9a1780118de285f35",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5580f",
+                                "_id": "676a54f9a1780118de285f36",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55810",
+                                "_id": "676a54f9a1780118de285f37",
                                 "key": 6,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55811",
+                                "_id": "676a54f9a1780118de285f38",
                                 "key": 7,
                                 "value": 0
                             }
                         ],
                         "mixedcircuit_used": [
                             {
-                                "_id": "67698fc24fa8a085b2e55812",
+                                "_id": "676a54f9a1780118de285f39",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55813",
+                                "_id": "676a54f9a1780118de285f3a",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55814",
+                                "_id": "676a54f9a1780118de285f3b",
                                 "key": 2,
                                 "value": 0
                             }
@@ -415,115 +415,115 @@
                         "buildOwnerMail": "p.zaccaglino@gmail.com",
                         "offsetRoomTemp": [
                             {
-                                "_id": "67698fc24fa8a085b2e55815",
+                                "_id": "676a54f9a1780118de285f3c",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55816",
+                                "_id": "676a54f9a1780118de285f3d",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55817",
+                                "_id": "676a54f9a1780118de285f3e",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55818",
+                                "_id": "676a54f9a1780118de285f3f",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55819",
+                                "_id": "676a54f9a1780118de285f40",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5581a",
+                                "_id": "676a54f9a1780118de285f41",
                                 "key": 5,
                                 "value": 0
                             }
                         ],
                         "offsertReturnTemperatures": [
                             {
-                                "_id": "67698fc24fa8a085b2e5581b",
+                                "_id": "676a54f9a1780118de285f42",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5581c",
+                                "_id": "676a54f9a1780118de285f43",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5581d",
+                                "_id": "676a54f9a1780118de285f44",
                                 "key": 2,
                                 "value": 0
                             }
                         ],
                         "offsetRoomTempremote": [
                             {
-                                "_id": "67698fc24fa8a085b2e5581e",
+                                "_id": "676a54f9a1780118de285f45",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5581f",
+                                "_id": "676a54f9a1780118de285f46",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55820",
+                                "_id": "676a54f9a1780118de285f47",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55821",
+                                "_id": "676a54f9a1780118de285f48",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55822",
+                                "_id": "676a54f9a1780118de285f49",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55823",
+                                "_id": "676a54f9a1780118de285f4a",
                                 "key": 5,
                                 "value": 0
                             }
                         ],
                         "offsetHumidity": [
                             {
-                                "_id": "67698fc24fa8a085b2e55824",
+                                "_id": "676a54f9a1780118de285f4b",
                                 "key": 0,
-                                "value": 4
+                                "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55825",
+                                "_id": "676a54f9a1780118de285f4c",
                                 "key": 1,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55826",
+                                "_id": "676a54f9a1780118de285f4d",
                                 "key": 2,
-                                "value": 4
+                                "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55827",
+                                "_id": "676a54f9a1780118de285f4e",
                                 "key": 3,
-                                "value": 4
+                                "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55828",
+                                "_id": "676a54f9a1780118de285f4f",
                                 "key": 4,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55829",
+                                "_id": "676a54f9a1780118de285f50",
                                 "key": 5,
-                                "value": 4
+                                "value": 0
                             }
                         ],
                         "heatingLimitNormalMode": 15,
@@ -539,204 +539,204 @@
                         "boostModePauseTime": 30,
                         "heatCurveStartingPointNormalModeCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e5582a",
+                                "_id": "676a54f9a1780118de285f51",
                                 "key": 0,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5582b",
+                                "_id": "676a54f9a1780118de285f52",
                                 "key": 1,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5582c",
+                                "_id": "676a54f9a1780118de285f53",
                                 "key": 2,
                                 "value": 20
                             }
                         ],
                         "heatCurveStartingPointAbsenceModeCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e5582d",
+                                "_id": "676a54f9a1780118de285f54",
                                 "key": 0,
                                 "value": 17
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5582e",
+                                "_id": "676a54f9a1780118de285f55",
                                 "key": 1,
                                 "value": 17
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5582f",
+                                "_id": "676a54f9a1780118de285f56",
                                 "key": 2,
                                 "value": 17
                             }
                         ],
                         "slopeNormalModeCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e55830",
+                                "_id": "676a54f9a1780118de285f57",
                                 "key": 0,
                                 "value": 0.6
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55831",
+                                "_id": "676a54f9a1780118de285f58",
                                 "key": 1,
                                 "value": 0.6
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55832",
+                                "_id": "676a54f9a1780118de285f59",
                                 "key": 2,
                                 "value": 0.6
                             }
                         ],
                         "slopeAbsenceModeCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e55833",
+                                "_id": "676a54f9a1780118de285f5a",
                                 "key": 0,
                                 "value": 0.5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55834",
+                                "_id": "676a54f9a1780118de285f5b",
                                 "key": 1,
                                 "value": 0.5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55835",
+                                "_id": "676a54f9a1780118de285f5c",
                                 "key": 2,
                                 "value": 0.5
                             }
                         ],
                         "flowReductionReducedMode": [
                             {
-                                "_id": "67698fc24fa8a085b2e55836",
+                                "_id": "676a54f9a1780118de285f5d",
                                 "key": 0,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55837",
+                                "_id": "676a54f9a1780118de285f5e",
                                 "key": 1,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55838",
+                                "_id": "676a54f9a1780118de285f5f",
                                 "key": 2,
                                 "value": 4
                             }
                         ],
                         "roomTempCompensationFactor": [
                             {
-                                "_id": "67698fc24fa8a085b2e55839",
+                                "_id": "676a54f9a1780118de285f60",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5583a",
+                                "_id": "676a54f9a1780118de285f61",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5583b",
+                                "_id": "676a54f9a1780118de285f62",
                                 "key": 2,
                                 "value": 1
                             }
                         ],
                         "minimumValueOfSupplyTemperatureHeatingModeNormalCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e5583c",
+                                "_id": "676a54f9a1780118de285f63",
                                 "key": 0,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5583d",
+                                "_id": "676a54f9a1780118de285f64",
                                 "key": 1,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5583e",
+                                "_id": "676a54f9a1780118de285f65",
                                 "key": 2,
                                 "value": 25
                             }
                         ],
                         "minimumValueOfSupplyTemperatureHeatingModeAbsenceCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e5583f",
+                                "_id": "676a54f9a1780118de285f66",
                                 "key": 0,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55840",
+                                "_id": "676a54f9a1780118de285f67",
                                 "key": 1,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55841",
+                                "_id": "676a54f9a1780118de285f68",
                                 "key": 2,
                                 "value": 20
                             }
                         ],
                         "maximumValueOfSupplyTemperatureHeatingModeNormalCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e55842",
+                                "_id": "676a54f9a1780118de285f69",
                                 "key": 0,
                                 "value": 45
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55843",
+                                "_id": "676a54f9a1780118de285f6a",
                                 "key": 1,
                                 "value": 45
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55844",
+                                "_id": "676a54f9a1780118de285f6b",
                                 "key": 2,
                                 "value": 45
                             }
                         ],
                         "maximumValueOfSupplyTemperatureHeatingModeAbsenceCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e55845",
+                                "_id": "676a54f9a1780118de285f6c",
                                 "key": 0,
                                 "value": 45
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55846",
+                                "_id": "676a54f9a1780118de285f6d",
                                 "key": 1,
                                 "value": 40
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55847",
+                                "_id": "676a54f9a1780118de285f6e",
                                 "key": 2,
                                 "value": 40
                             }
                         ],
                         "filterTimeOutsideTempCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e55848",
+                                "_id": "676a54f9a1780118de285f6f",
                                 "key": 0,
                                 "value": 48
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55849",
+                                "_id": "676a54f9a1780118de285f70",
                                 "key": 1,
                                 "value": 48
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5584a",
+                                "_id": "676a54f9a1780118de285f71",
                                 "key": 2,
                                 "value": 48
                             }
                         ],
                         "pilotRoomInfluenceHeatingLimitCircuit": [
                             {
-                                "_id": "67698fc24fa8a085b2e5584b",
+                                "_id": "676a54f9a1780118de285f72",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5584c",
+                                "_id": "676a54f9a1780118de285f73",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5584d",
+                                "_id": "676a54f9a1780118de285f74",
                                 "key": 2,
                                 "value": 1
                             }
@@ -764,469 +764,469 @@
                         "mixCircGeneralDelayTime": 15,
                         "mixCircHeatPropBand": [
                             {
-                                "_id": "67698fc24fa8a085b2e5584e",
+                                "_id": "676a54f9a1780118de285f75",
                                 "key": 0,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5584f",
+                                "_id": "676a54f9a1780118de285f76",
                                 "key": 1,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55850",
+                                "_id": "676a54f9a1780118de285f77",
                                 "key": 2,
                                 "value": 20
                             }
                         ],
                         "mixCircCoolPropBand": [
                             {
-                                "_id": "67698fc24fa8a085b2e55851",
+                                "_id": "676a54f9a1780118de285f78",
                                 "key": 0,
                                 "value": 10
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55852",
+                                "_id": "676a54f9a1780118de285f79",
                                 "key": 1,
                                 "value": 10
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55853",
+                                "_id": "676a54f9a1780118de285f7a",
                                 "key": 2,
                                 "value": 10
                             }
                         ],
                         "mixCircIntegralTime": [
                             {
-                                "_id": "67698fc24fa8a085b2e55854",
+                                "_id": "676a54f9a1780118de285f7b",
                                 "key": 0,
                                 "value": 60
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55855",
+                                "_id": "676a54f9a1780118de285f7c",
                                 "key": 1,
                                 "value": 60
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55856",
+                                "_id": "676a54f9a1780118de285f7d",
                                 "key": 2,
                                 "value": 60
                             }
                         ],
                         "mixCircMinControlSignal": [
                             {
-                                "_id": "67698fc24fa8a085b2e55857",
+                                "_id": "676a54f9a1780118de285f7e",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55858",
+                                "_id": "676a54f9a1780118de285f7f",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55859",
+                                "_id": "676a54f9a1780118de285f80",
                                 "key": 2,
                                 "value": 0
                             }
                         ],
                         "mixCircMaxControlSignal": [
                             {
-                                "_id": "67698fc24fa8a085b2e5585a",
+                                "_id": "676a54f9a1780118de285f81",
                                 "key": 0,
                                 "value": 100
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5585b",
+                                "_id": "676a54f9a1780118de285f82",
                                 "key": 1,
                                 "value": 100
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5585c",
+                                "_id": "676a54f9a1780118de285f83",
                                 "key": 2,
                                 "value": 100
                             }
                         ],
                         "mixCircDelayTime": [
                             {
-                                "_id": "67698fc24fa8a085b2e5585d",
+                                "_id": "676a54f9a1780118de285f84",
                                 "key": 0,
                                 "value": 15
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5585e",
+                                "_id": "676a54f9a1780118de285f85",
                                 "key": 1,
                                 "value": 15
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5585f",
+                                "_id": "676a54f9a1780118de285f86",
                                 "key": 2,
                                 "value": 15
                             }
                         ],
                         "mixCircControlSignalInverted": [
                             {
-                                "_id": "67698fc24fa8a085b2e55860",
+                                "_id": "676a54f9a1780118de285f87",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55861",
+                                "_id": "676a54f9a1780118de285f88",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55862",
+                                "_id": "676a54f9a1780118de285f89",
                                 "key": 2,
                                 "value": 0
                             }
                         ],
                         "mixCircUsedSystem": [
                             {
-                                "_id": "67698fc24fa8a085b2e55863",
+                                "_id": "676a54f9a1780118de285f8a",
                                 "key": 0,
                                 "value": 17
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55864",
+                                "_id": "676a54f9a1780118de285f8b",
                                 "key": 1,
                                 "value": 17
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55865",
+                                "_id": "676a54f9a1780118de285f8c",
                                 "key": 2,
                                 "value": 17
                             }
                         ],
                         "propBandwidthHeatingMode": [
                             {
-                                "_id": "67698fc24fa8a085b2e55866",
+                                "_id": "676a54f9a1780118de285f8d",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55867",
+                                "_id": "676a54f9a1780118de285f8e",
                                 "key": 1,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55868",
+                                "_id": "676a54f9a1780118de285f8f",
                                 "key": 2,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55869",
+                                "_id": "676a54f9a1780118de285f90",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5586a",
+                                "_id": "676a54f9a1780118de285f91",
                                 "key": 4,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5586b",
+                                "_id": "676a54f9a1780118de285f92",
                                 "key": 5,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5586c",
+                                "_id": "676a54f9a1780118de285f93",
                                 "key": 6,
                                 "value": 4
                             }
                         ],
                         "propBandwidthCoolingMode": [
                             {
-                                "_id": "67698fc24fa8a085b2e5586d",
+                                "_id": "676a54f9a1780118de285f94",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5586e",
+                                "_id": "676a54f9a1780118de285f95",
                                 "key": 1,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5586f",
+                                "_id": "676a54f9a1780118de285f96",
                                 "key": 2,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55870",
+                                "_id": "676a54f9a1780118de285f97",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55871",
+                                "_id": "676a54f9a1780118de285f98",
                                 "key": 4,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55872",
+                                "_id": "676a54f9a1780118de285f99",
                                 "key": 5,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55873",
+                                "_id": "676a54f9a1780118de285f9a",
                                 "key": 6,
                                 "value": 4
                             }
                         ],
                         "pulsePeriodRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e55874",
+                                "_id": "676a54f9a1780118de285f9b",
                                 "key": 0,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55875",
+                                "_id": "676a54f9a1780118de285f9c",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55876",
+                                "_id": "676a54f9a1780118de285f9d",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55877",
+                                "_id": "676a54f9a1780118de285f9e",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55878",
+                                "_id": "676a54f9a1780118de285f9f",
                                 "key": 4,
                                 "value": 8
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55879",
+                                "_id": "676a54f9a1780118de285fa0",
                                 "key": 5,
                                 "value": 6
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5587a",
+                                "_id": "676a54f9a1780118de285fa1",
                                 "key": 6,
                                 "value": 8
                             }
                         ],
                         "minPulseLengthRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e5587b",
+                                "_id": "676a54f9a1780118de285fa2",
                                 "key": 0,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5587c",
+                                "_id": "676a54f9a1780118de285fa3",
                                 "key": 1,
                                 "value": 3
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5587d",
+                                "_id": "676a54f9a1780118de285fa4",
                                 "key": 2,
                                 "value": 3
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5587e",
+                                "_id": "676a54f9a1780118de285fa5",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5587f",
+                                "_id": "676a54f9a1780118de285fa6",
                                 "key": 4,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55880",
+                                "_id": "676a54f9a1780118de285fa7",
                                 "key": 5,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55881",
+                                "_id": "676a54f9a1780118de285fa8",
                                 "key": 6,
                                 "value": 25
                             }
                         ],
                         "integralTimeRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e55882",
+                                "_id": "676a54f9a1780118de285fa9",
                                 "key": 0,
                                 "value": 180
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55883",
+                                "_id": "676a54f9a1780118de285faa",
                                 "key": 1,
                                 "value": 90
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55884",
+                                "_id": "676a54f9a1780118de285fab",
                                 "key": 2,
                                 "value": 90
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55885",
+                                "_id": "676a54f9a1780118de285fac",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55886",
+                                "_id": "676a54f9a1780118de285fad",
                                 "key": 4,
                                 "value": 180
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55887",
+                                "_id": "676a54f9a1780118de285fae",
                                 "key": 5,
                                 "value": 120
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55888",
+                                "_id": "676a54f9a1780118de285faf",
                                 "key": 6,
                                 "value": 180
                             }
                         ],
                         "integralPercentPartRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e55889",
+                                "_id": "676a54f9a1780118de285fb0",
                                 "key": 0,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588a",
+                                "_id": "676a54f9a1780118de285fb1",
                                 "key": 1,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588b",
+                                "_id": "676a54f9a1780118de285fb2",
                                 "key": 2,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588c",
+                                "_id": "676a54f9a1780118de285fb3",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588d",
+                                "_id": "676a54f9a1780118de285fb4",
                                 "key": 4,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588e",
+                                "_id": "676a54f9a1780118de285fb5",
                                 "key": 5,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5588f",
+                                "_id": "676a54f9a1780118de285fb6",
                                 "key": 6,
                                 "value": 30
                             }
                         ],
                         "optimizationRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e55890",
+                                "_id": "676a54f9a1780118de285fb7",
                                 "key": 0,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55891",
+                                "_id": "676a54f9a1780118de285fb8",
                                 "key": 1,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55892",
+                                "_id": "676a54f9a1780118de285fb9",
                                 "key": 2,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55893",
+                                "_id": "676a54f9a1780118de285fba",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55894",
+                                "_id": "676a54f9a1780118de285fbb",
                                 "key": 4,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55895",
+                                "_id": "676a54f9a1780118de285fbc",
                                 "key": 5,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55896",
+                                "_id": "676a54f9a1780118de285fbd",
                                 "key": 6,
                                 "value": 5
                             }
                         ],
                         "pulseLengthThreshholdContinousMode": [
                             {
-                                "_id": "67698fc24fa8a085b2e55897",
+                                "_id": "676a54f9a1780118de285fbe",
                                 "key": 0,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55898",
+                                "_id": "676a54f9a1780118de285fbf",
                                 "key": 1,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55899",
+                                "_id": "676a54f9a1780118de285fc0",
                                 "key": 2,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5589a",
+                                "_id": "676a54f9a1780118de285fc1",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5589b",
+                                "_id": "676a54f9a1780118de285fc2",
                                 "key": 4,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5589c",
+                                "_id": "676a54f9a1780118de285fc3",
                                 "key": 5,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5589d",
+                                "_id": "676a54f9a1780118de285fc4",
                                 "key": 6,
                                 "value": 80
                             }
                         ],
                         "propBandShiftRoomTempCtrl": [
                             {
-                                "_id": "67698fc24fa8a085b2e5589e",
+                                "_id": "676a54f9a1780118de285fc5",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5589f",
+                                "_id": "676a54f9a1780118de285fc6",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a0",
+                                "_id": "676a54f9a1780118de285fc7",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a1",
+                                "_id": "676a54f9a1780118de285fc8",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a2",
+                                "_id": "676a54f9a1780118de285fc9",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a3",
+                                "_id": "676a54f9a1780118de285fca",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a4",
+                                "_id": "676a54f9a1780118de285fcb",
                                 "key": 6,
                                 "value": 0
                             }
@@ -1243,126 +1243,126 @@
                         "chillerBlockingTime": 3,
                         "pumpLocalGlobal": [
                             {
-                                "_id": "67698fc24fa8a085b2e558a5",
+                                "_id": "676a54f9a1780118de285fcc",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a6",
+                                "_id": "676a54f9a1780118de285fcd",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a7",
+                                "_id": "676a54f9a1780118de285fce",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a8",
+                                "_id": "676a54f9a1780118de285fcf",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558a9",
+                                "_id": "676a54f9a1780118de285fd0",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558aa",
+                                "_id": "676a54f9a1780118de285fd1",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ab",
+                                "_id": "676a54f9a1780118de285fd2",
                                 "key": 6,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ac",
+                                "_id": "676a54f9a1780118de285fd3",
                                 "key": 7,
                                 "value": 0
                             }
                         ],
                         "pumpType": [
                             {
-                                "_id": "67698fc24fa8a085b2e558ad",
+                                "_id": "676a54f9a1780118de285fd4",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ae",
+                                "_id": "676a54f9a1780118de285fd5",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558af",
+                                "_id": "676a54f9a1780118de285fd6",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b0",
+                                "_id": "676a54f9a1780118de285fd7",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b1",
+                                "_id": "676a54f9a1780118de285fd8",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b2",
+                                "_id": "676a54f9a1780118de285fd9",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b3",
+                                "_id": "676a54f9a1780118de285fda",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b4",
+                                "_id": "676a54f9a1780118de285fdb",
                                 "key": 7,
                                 "value": 1
                             }
                         ],
                         "pumpAntiBlockEnable": [
                             {
-                                "_id": "67698fc24fa8a085b2e558b5",
+                                "_id": "676a54f9a1780118de285fdc",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b6",
+                                "_id": "676a54f9a1780118de285fdd",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b7",
+                                "_id": "676a54f9a1780118de285fde",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b8",
+                                "_id": "676a54f9a1780118de285fdf",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558b9",
+                                "_id": "676a54f9a1780118de285fe0",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ba",
+                                "_id": "676a54f9a1780118de285fe1",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558bb",
+                                "_id": "676a54f9a1780118de285fe2",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558bc",
+                                "_id": "676a54f9a1780118de285fe3",
                                 "key": 7,
                                 "value": 1
                             }
@@ -1372,252 +1372,252 @@
                         "pumpAntiBlockRuntime": 5,
                         "pumpMixedCircuitStartDelay_3": [
                             {
-                                "_id": "67698fc24fa8a085b2e558bd",
+                                "_id": "676a54f9a1780118de285fe4",
                                 "key": 0,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558be",
+                                "_id": "676a54f9a1780118de285fe5",
                                 "key": 1,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558bf",
+                                "_id": "676a54f9a1780118de285fe6",
                                 "key": 2,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c0",
+                                "_id": "676a54f9a1780118de285fe7",
                                 "key": 3,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c1",
+                                "_id": "676a54f9a1780118de285fe8",
                                 "key": 4,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c2",
+                                "_id": "676a54f9a1780118de285fe9",
                                 "key": 5,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c3",
+                                "_id": "676a54f9a1780118de285fea",
                                 "key": 6,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c4",
+                                "_id": "676a54f9a1780118de285feb",
                                 "key": 7,
                                 "value": 4
                             }
                         ],
                         "pumpMixedCircuitOverShootTime_3": [
                             {
-                                "_id": "67698fc24fa8a085b2e558c5",
+                                "_id": "676a54f9a1780118de285fec",
                                 "key": 0,
                                 "value": 5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c6",
+                                "_id": "676a54f9a1780118de285fed",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c7",
+                                "_id": "676a54f9a1780118de285fee",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c8",
+                                "_id": "676a54f9a1780118de285fef",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558c9",
+                                "_id": "676a54f9a1780118de285ff0",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ca",
+                                "_id": "676a54f9a1780118de285ff1",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558cb",
+                                "_id": "676a54f9a1780118de285ff2",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558cc",
+                                "_id": "676a54f9a1780118de285ff3",
                                 "key": 7,
                                 "value": 1
                             }
                         ],
                         "pumpMixedCircuitMinRunTimeStd": [
                             {
-                                "_id": "67698fc24fa8a085b2e558cd",
+                                "_id": "676a54f9a1780118de285ff4",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ce",
+                                "_id": "676a54f9a1780118de285ff5",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558cf",
+                                "_id": "676a54f9a1780118de285ff6",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d0",
+                                "_id": "676a54f9a1780118de285ff7",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d1",
+                                "_id": "676a54f9a1780118de285ff8",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d2",
+                                "_id": "676a54f9a1780118de285ff9",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d3",
+                                "_id": "676a54f9a1780118de285ffa",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d4",
+                                "_id": "676a54f9a1780118de285ffb",
                                 "key": 7,
                                 "value": 1
                             }
                         ],
                         "pumpMixedCircuitMinRunTimeHE": [
                             {
-                                "_id": "67698fc24fa8a085b2e558d5",
+                                "_id": "676a54f9a1780118de285ffc",
                                 "key": 0,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d6",
+                                "_id": "676a54f9a1780118de285ffd",
                                 "key": 1,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d7",
+                                "_id": "676a54f9a1780118de285ffe",
                                 "key": 2,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d8",
+                                "_id": "676a54f9a1780118de285fff",
                                 "key": 3,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558d9",
+                                "_id": "676a54f9a1780118de286000",
                                 "key": 4,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558da",
+                                "_id": "676a54f9a1780118de286001",
                                 "key": 5,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558db",
+                                "_id": "676a54f9a1780118de286002",
                                 "key": 6,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558dc",
+                                "_id": "676a54f9a1780118de286003",
                                 "key": 7,
                                 "value": 30
                             }
                         ],
                         "pumpMinPauseTimeSTD": [
                             {
-                                "_id": "67698fc24fa8a085b2e558dd",
+                                "_id": "676a54f9a1780118de286004",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558de",
+                                "_id": "676a54f9a1780118de286005",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558df",
+                                "_id": "676a54f9a1780118de286006",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e0",
+                                "_id": "676a54f9a1780118de286007",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e1",
+                                "_id": "676a54f9a1780118de286008",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e2",
+                                "_id": "676a54f9a1780118de286009",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e3",
+                                "_id": "676a54f9a1780118de28600a",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e4",
+                                "_id": "676a54f9a1780118de28600b",
                                 "key": 7,
                                 "value": 1
                             }
                         ],
                         "pumpMinPauseTimeHE": [
                             {
-                                "_id": "67698fc24fa8a085b2e558e5",
+                                "_id": "676a54f9a1780118de28600c",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e6",
+                                "_id": "676a54f9a1780118de28600d",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e7",
+                                "_id": "676a54f9a1780118de28600e",
                                 "key": 2,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e8",
+                                "_id": "676a54f9a1780118de28600f",
                                 "key": 3,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558e9",
+                                "_id": "676a54f9a1780118de286010",
                                 "key": 4,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ea",
+                                "_id": "676a54f9a1780118de286011",
                                 "key": 5,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558eb",
+                                "_id": "676a54f9a1780118de286012",
                                 "key": 6,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ec",
+                                "_id": "676a54f9a1780118de286013",
                                 "key": 7,
                                 "value": 1
                             }
@@ -1630,17 +1630,17 @@
                         "switchingValvesRunTime": 4,
                         "heatingFlowTempOffset": [
                             {
-                                "_id": "67698fc24fa8a085b2e558ed",
+                                "_id": "676a54f9a1780118de286014",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ee",
+                                "_id": "676a54f9a1780118de286015",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ef",
+                                "_id": "676a54f9a1780118de286016",
                                 "key": 2,
                                 "value": 0
                             }
@@ -1659,188 +1659,188 @@
                         "fanCoilThresholdCooling": [],
                         "dehumActivationLimitRelHumidityNorm": [
                             {
-                                "_id": "67698fc24fa8a085b2e558f0",
+                                "_id": "676a54f9a1780118de286017",
                                 "key": 0,
                                 "value": 90
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f1",
+                                "_id": "676a54f9a1780118de286018",
                                 "key": 1,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f2",
+                                "_id": "676a54f9a1780118de286019",
                                 "key": 2,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f3",
+                                "_id": "676a54f9a1780118de28601a",
                                 "key": 3,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f4",
+                                "_id": "676a54f9a1780118de28601b",
                                 "key": 4,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f5",
+                                "_id": "676a54f9a1780118de28601c",
                                 "key": 5,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f6",
+                                "_id": "676a54f9a1780118de28601d",
                                 "key": 6,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f7",
+                                "_id": "676a54f9a1780118de28601e",
                                 "key": 7,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558f8",
+                                "_id": "676a54f9a1780118de28601f",
                                 "key": 8,
                                 "value": 55
                             }
                         ],
                         "dehumidifierLimitNormal": [
                             {
-                                "_id": "67698fc24fa8a085b2e558f9",
+                                "_id": "676a54f9a1780118de286020",
                                 "key": 0,
                                 "value": 90
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558fa",
+                                "_id": "676a54f9a1780118de286021",
                                 "key": 1,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558fb",
+                                "_id": "676a54f9a1780118de286022",
                                 "key": 2,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558fc",
+                                "_id": "676a54f9a1780118de286023",
                                 "key": 3,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558fd",
+                                "_id": "676a54f9a1780118de286024",
                                 "key": 4,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558fe",
+                                "_id": "676a54f9a1780118de286025",
                                 "key": 5,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e558ff",
+                                "_id": "676a54f9a1780118de286026",
                                 "key": 6,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55900",
+                                "_id": "676a54f9a1780118de286027",
                                 "key": 7,
                                 "value": 55
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55901",
+                                "_id": "676a54f9a1780118de286028",
                                 "key": 8,
                                 "value": 55
                             }
                         ],
                         "dehumActivationLimitRelHumidityReduced": [
                             {
-                                "_id": "67698fc24fa8a085b2e55902",
+                                "_id": "676a54f9a1780118de286029",
                                 "key": 0,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55903",
+                                "_id": "676a54f9a1780118de28602a",
                                 "key": 1,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55904",
+                                "_id": "676a54f9a1780118de28602b",
                                 "key": 2,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55905",
+                                "_id": "676a54f9a1780118de28602c",
                                 "key": 3,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55906",
+                                "_id": "676a54f9a1780118de28602d",
                                 "key": 4,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55907",
+                                "_id": "676a54f9a1780118de28602e",
                                 "key": 5,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55908",
+                                "_id": "676a54f9a1780118de28602f",
                                 "key": 6,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55909",
+                                "_id": "676a54f9a1780118de286030",
                                 "key": 7,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5590a",
+                                "_id": "676a54f9a1780118de286031",
                                 "key": 8,
                                 "value": 80
                             }
                         ],
                         "dehumidifierLimitReduced": [
                             {
-                                "_id": "67698fc24fa8a085b2e5590b",
+                                "_id": "676a54f9a1780118de286032",
                                 "key": 0,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5590c",
+                                "_id": "676a54f9a1780118de286033",
                                 "key": 1,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5590d",
+                                "_id": "676a54f9a1780118de286034",
                                 "key": 2,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5590e",
+                                "_id": "676a54f9a1780118de286035",
                                 "key": 3,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5590f",
+                                "_id": "676a54f9a1780118de286036",
                                 "key": 4,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55910",
+                                "_id": "676a54f9a1780118de286037",
                                 "key": 5,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55911",
+                                "_id": "676a54f9a1780118de286038",
                                 "key": 6,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55912",
+                                "_id": "676a54f9a1780118de286039",
                                 "key": 7,
                                 "value": 80
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55913",
+                                "_id": "676a54f9a1780118de28603a",
                                 "key": 8,
                                 "value": 80
                             }
@@ -1848,47 +1848,47 @@
                         "dehumHysterisisRelHumidity": 5,
                         "dehumActivationLimitDewpoint": [
                             {
-                                "_id": "67698fc24fa8a085b2e55914",
+                                "_id": "676a54f9a1780118de28603b",
                                 "key": 0,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55915",
+                                "_id": "676a54f9a1780118de28603c",
                                 "key": 1,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55916",
+                                "_id": "676a54f9a1780118de28603d",
                                 "key": 2,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55917",
+                                "_id": "676a54f9a1780118de28603e",
                                 "key": 3,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55918",
+                                "_id": "676a54f9a1780118de28603f",
                                 "key": 4,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55919",
+                                "_id": "676a54f9a1780118de286040",
                                 "key": 5,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5591a",
+                                "_id": "676a54f9a1780118de286041",
                                 "key": 6,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5591b",
+                                "_id": "676a54f9a1780118de286042",
                                 "key": 7,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5591c",
+                                "_id": "676a54f9a1780118de286043",
                                 "key": 8,
                                 "value": 25
                             }
@@ -1898,47 +1898,47 @@
                         "dehumBlockingTime": 10,
                         "dehumOutsideCoolingModeAllowed": [
                             {
-                                "_id": "67698fc24fa8a085b2e5591d",
+                                "_id": "676a54f9a1780118de286044",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5591e",
+                                "_id": "676a54f9a1780118de286045",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5591f",
+                                "_id": "676a54f9a1780118de286046",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55920",
+                                "_id": "676a54f9a1780118de286047",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55921",
+                                "_id": "676a54f9a1780118de286048",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55922",
+                                "_id": "676a54f9a1780118de286049",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55923",
+                                "_id": "676a54f9a1780118de28604a",
                                 "key": 6,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55924",
+                                "_id": "676a54f9a1780118de28604b",
                                 "key": 7,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55925",
+                                "_id": "676a54f9a1780118de28604c",
                                 "key": 8,
                                 "value": 0
                             }
@@ -1946,213 +1946,213 @@
                         "dehumMaxRunTime": 240,
                         "dehumActivationLimitDewpointReduced": [
                             {
-                                "_id": "67698fc24fa8a085b2e55926",
+                                "_id": "676a54f9a1780118de28604d",
                                 "key": 0,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55927",
+                                "_id": "676a54f9a1780118de28604e",
                                 "key": 1,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55928",
+                                "_id": "676a54f9a1780118de28604f",
                                 "key": 2,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55929",
+                                "_id": "676a54f9a1780118de286050",
                                 "key": 3,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5592a",
+                                "_id": "676a54f9a1780118de286051",
                                 "key": 4,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5592b",
+                                "_id": "676a54f9a1780118de286052",
                                 "key": 5,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5592c",
+                                "_id": "676a54f9a1780118de286053",
                                 "key": 6,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5592d",
+                                "_id": "676a54f9a1780118de286054",
                                 "key": 7,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5592e",
+                                "_id": "676a54f9a1780118de286055",
                                 "key": 8,
                                 "value": 25
                             }
                         ],
                         "chillerMixValveThreshhold": [
                             {
-                                "_id": "67698fc24fa8a085b2e5592f",
+                                "_id": "676a54f9a1780118de286056",
                                 "key": 0,
                                 "value": 75
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55930",
+                                "_id": "676a54f9a1780118de286057",
                                 "key": 1,
                                 "value": 75
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55931",
+                                "_id": "676a54f9a1780118de286058",
                                 "key": 2,
                                 "value": 75
                             }
                         ],
                         "chillerMixValveHysteresis": [
                             {
-                                "_id": "67698fc24fa8a085b2e55932",
+                                "_id": "676a54f9a1780118de286059",
                                 "key": 0,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55933",
+                                "_id": "676a54f9a1780118de28605a",
                                 "key": 1,
                                 "value": 25
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55934",
+                                "_id": "676a54f9a1780118de28605b",
                                 "key": 2,
                                 "value": 25
                             }
                         ],
                         "tempSupplyMinCoolingNormalCircuitNo": [
                             {
-                                "_id": "67698fc24fa8a085b2e55935",
+                                "_id": "676a54f9a1780118de28605c",
                                 "key": 0,
                                 "value": 14
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55936",
+                                "_id": "676a54f9a1780118de28605d",
                                 "key": 1,
                                 "value": 16
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55937",
+                                "_id": "676a54f9a1780118de28605e",
                                 "key": 2,
                                 "value": 16
                             }
                         ],
                         "dewPointSafetyDistanceCircuitNo": [
                             {
-                                "_id": "67698fc24fa8a085b2e55938",
+                                "_id": "676a54f9a1780118de28605f",
                                 "key": 0,
                                 "value": -2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55939",
+                                "_id": "676a54f9a1780118de286060",
                                 "key": 1,
                                 "value": 2
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5593a",
+                                "_id": "676a54f9a1780118de286061",
                                 "key": 2,
                                 "value": 2
                             }
                         ],
                         "tempLimitCoolingModeElementCircuitNo": [
                             {
-                                "_id": "67698fc24fa8a085b2e5593b",
+                                "_id": "676a54f9a1780118de286062",
                                 "key": 0,
                                 "value": 1.5
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5593c",
+                                "_id": "676a54f9a1780118de286063",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5593d",
+                                "_id": "676a54f9a1780118de286064",
                                 "key": 2,
                                 "value": 0
                             }
                         ],
                         "tempLimitCoolingModeReturnCircuitNo": [
                             {
-                                "_id": "67698fc24fa8a085b2e5593e",
+                                "_id": "676a54f9a1780118de286065",
                                 "key": 0,
                                 "value": 14
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5593f",
+                                "_id": "676a54f9a1780118de286066",
                                 "key": 1,
                                 "value": 18
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55940",
+                                "_id": "676a54f9a1780118de286067",
                                 "key": 2,
                                 "value": 18
                             }
                         ],
                         "flowTempCoolingIncreasedReducedCircuitNo": [
                             {
-                                "_id": "67698fc24fa8a085b2e55941",
+                                "_id": "676a54f9a1780118de286068",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55942",
+                                "_id": "676a54f9a1780118de286069",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55943",
+                                "_id": "676a54f9a1780118de28606a",
                                 "key": 2,
                                 "value": 1
                             }
                         ],
                         "dehum_to_week_program": [
                             {
-                                "_id": "67698fc24fa8a085b2e55944",
+                                "_id": "676a54f9a1780118de28606b",
                                 "key": 0,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55945",
+                                "_id": "676a54f9a1780118de28606c",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55946",
+                                "_id": "676a54f9a1780118de28606d",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55947",
+                                "_id": "676a54f9a1780118de28606e",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55948",
+                                "_id": "676a54f9a1780118de28606f",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55949",
+                                "_id": "676a54f9a1780118de286070",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5594a",
+                                "_id": "676a54f9a1780118de286071",
                                 "key": 6,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5594b",
+                                "_id": "676a54f9a1780118de286072",
                                 "key": 7,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5594c",
+                                "_id": "676a54f9a1780118de286073",
                                 "key": 8,
                                 "value": 0
                             }
@@ -2162,255 +2162,255 @@
                         "srsUsedSystems": 15,
                         "srsUseDesignValues": [
                             {
-                                "_id": "67698fc24fa8a085b2e5594d",
+                                "_id": "676a54f9a1780118de286074",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5594e",
+                                "_id": "676a54f9a1780118de286075",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5594f",
+                                "_id": "676a54f9a1780118de286076",
                                 "key": 2,
                                 "value": 1
                             }
                         ],
                         "srsWeightRoomTemp": [
                             {
-                                "_id": "67698fc24fa8a085b2e55950",
+                                "_id": "676a54f9a1780118de286077",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55951",
+                                "_id": "676a54f9a1780118de286078",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55952",
+                                "_id": "676a54f9a1780118de286079",
                                 "key": 2,
                                 "value": 1
                             }
                         ],
                         "srsWeightCoreTemp": [
                             {
-                                "_id": "67698fc24fa8a085b2e55953",
+                                "_id": "676a54f9a1780118de28607a",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55954",
+                                "_id": "676a54f9a1780118de28607b",
                                 "key": 1,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55955",
+                                "_id": "676a54f9a1780118de28607c",
                                 "key": 2,
                                 "value": 1
                             }
                         ],
                         "srsHeatCurveStartingPointNormalMode": [
                             {
-                                "_id": "67698fc24fa8a085b2e55956",
+                                "_id": "676a54f9a1780118de28607d",
                                 "key": 0,
                                 "value": 21
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55957",
+                                "_id": "676a54f9a1780118de28607e",
                                 "key": 1,
                                 "value": 21
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55958",
+                                "_id": "676a54f9a1780118de28607f",
                                 "key": 2,
                                 "value": 21
                             }
                         ],
                         "srsCoreTempCooling": [
                             {
-                                "_id": "67698fc24fa8a085b2e55959",
+                                "_id": "676a54f9a1780118de286080",
                                 "key": 0,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5595a",
+                                "_id": "676a54f9a1780118de286081",
                                 "key": 1,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5595b",
+                                "_id": "676a54f9a1780118de286082",
                                 "key": 2,
                                 "value": 20
                             }
                         ],
                         "srsCoreTempAbsence": [
                             {
-                                "_id": "67698fc24fa8a085b2e5595c",
+                                "_id": "676a54f9a1780118de286083",
                                 "key": 0,
                                 "value": 18
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5595d",
+                                "_id": "676a54f9a1780118de286084",
                                 "key": 1,
                                 "value": 18
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5595e",
+                                "_id": "676a54f9a1780118de286085",
                                 "key": 2,
                                 "value": 18
                             }
                         ],
                         "srsCoreTempMinimum": [
                             {
-                                "_id": "67698fc24fa8a085b2e5595f",
+                                "_id": "676a54f9a1780118de286086",
                                 "key": 0,
                                 "value": 16
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55960",
+                                "_id": "676a54f9a1780118de286087",
                                 "key": 1,
                                 "value": 16
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55961",
+                                "_id": "676a54f9a1780118de286088",
                                 "key": 2,
                                 "value": 16
                             }
                         ],
                         "srsCoreTempMaximum": [
                             {
-                                "_id": "67698fc24fa8a085b2e55962",
+                                "_id": "676a54f9a1780118de286089",
                                 "key": 0,
                                 "value": 30
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55963",
+                                "_id": "676a54f9a1780118de28608a",
                                 "key": 1,
                                 "value": 40
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55964",
+                                "_id": "676a54f9a1780118de28608b",
                                 "key": 2,
                                 "value": 30
                             }
                         ],
                         "srsFlowTemp": [
                             {
-                                "_id": "67698fc24fa8a085b2e55965",
+                                "_id": "676a54f9a1780118de28608c",
                                 "key": 0,
                                 "value": 32
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55966",
+                                "_id": "676a54f9a1780118de28608d",
                                 "key": 1,
                                 "value": 32
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55967",
+                                "_id": "676a54f9a1780118de28608e",
                                 "key": 2,
                                 "value": 32
                             }
                         ],
                         "srsReturnTemp": [
                             {
-                                "_id": "67698fc24fa8a085b2e55968",
+                                "_id": "676a54f9a1780118de28608f",
                                 "key": 0,
                                 "value": 28
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55969",
+                                "_id": "676a54f9a1780118de286090",
                                 "key": 1,
                                 "value": 28
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5596a",
+                                "_id": "676a54f9a1780118de286091",
                                 "key": 2,
                                 "value": 28
                             }
                         ],
                         "srsSlopeFlow": [
                             {
-                                "_id": "67698fc24fa8a085b2e5596b",
+                                "_id": "676a54f9a1780118de286092",
                                 "key": 0,
                                 "value": 26
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5596c",
+                                "_id": "676a54f9a1780118de286093",
                                 "key": 1,
                                 "value": 26
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5596d",
+                                "_id": "676a54f9a1780118de286094",
                                 "key": 2,
                                 "value": 26
                             }
                         ],
                         "srsSlopeReturn": [
                             {
-                                "_id": "67698fc24fa8a085b2e5596e",
+                                "_id": "676a54f9a1780118de286095",
                                 "key": 0,
                                 "value": 16
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5596f",
+                                "_id": "676a54f9a1780118de286096",
                                 "key": 1,
                                 "value": 16
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55970",
+                                "_id": "676a54f9a1780118de286097",
                                 "key": 2,
                                 "value": 16
                             }
                         ],
                         "srsXpCore": [
                             {
-                                "_id": "67698fc24fa8a085b2e55971",
+                                "_id": "676a54f9a1780118de286098",
                                 "key": 0,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55972",
+                                "_id": "676a54f9a1780118de286099",
                                 "key": 1,
                                 "value": 4
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55973",
+                                "_id": "676a54f9a1780118de28609a",
                                 "key": 2,
                                 "value": 4
                             }
                         ],
                         "srsXpCoreShift": [
                             {
-                                "_id": "67698fc24fa8a085b2e55974",
+                                "_id": "676a54f9a1780118de28609b",
                                 "key": 0,
                                 "value": 7
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55975",
+                                "_id": "676a54f9a1780118de28609c",
                                 "key": 1,
                                 "value": 7
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55976",
+                                "_id": "676a54f9a1780118de28609d",
                                 "key": 2,
                                 "value": 7
                             }
                         ],
                         "srsCoreSafetyDistance": [
                             {
-                                "_id": "67698fc24fa8a085b2e55977",
+                                "_id": "676a54f9a1780118de28609e",
                                 "key": 0,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55978",
+                                "_id": "676a54f9a1780118de28609f",
                                 "key": 1,
                                 "value": 20
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55979",
+                                "_id": "676a54f9a1780118de2860a0",
                                 "key": 2,
                                 "value": 20
                             }
@@ -2447,54 +2447,54 @@
                         ],
                         "FCSysBus": [
                             {
-                                "_id": "67698fc24fa8a085b2e5597a",
+                                "_id": "676a54f9a1780118de2860a1",
                                 "key": 0,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5597b",
+                                "_id": "676a54f9a1780118de2860a2",
                                 "key": 1,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5597c",
+                                "_id": "676a54f9a1780118de2860a3",
                                 "key": 2,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5597d",
+                                "_id": "676a54f9a1780118de2860a4",
                                 "key": 3,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5597e",
+                                "_id": "676a54f9a1780118de2860a5",
                                 "key": 4,
                                 "value": "0000000000000000"
                             }
                         ],
                         "FCSysBusType": [
                             {
-                                "_id": "67698fc24fa8a085b2e5597f",
+                                "_id": "676a54f9a1780118de2860a6",
                                 "key": 0,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55980",
+                                "_id": "676a54f9a1780118de2860a7",
                                 "key": 1,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55981",
+                                "_id": "676a54f9a1780118de2860a8",
                                 "key": 2,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55982",
+                                "_id": "676a54f9a1780118de2860a9",
                                 "key": 3,
                                 "value": "0000000000000000"
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55983",
+                                "_id": "676a54f9a1780118de2860aa",
                                 "key": 4,
                                 "value": "0000000000000000"
                             }
@@ -2502,47 +2502,47 @@
                         "fanCoilEcoTol": 27,
                         "dehumidifier_used": [
                             {
-                                "_id": "67698fc24fa8a085b2e55984",
+                                "_id": "676a54f9a1780118de2860ab",
                                 "key": 0,
                                 "value": 1
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55985",
+                                "_id": "676a54f9a1780118de2860ac",
                                 "key": 1,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55986",
+                                "_id": "676a54f9a1780118de2860ad",
                                 "key": 2,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55987",
+                                "_id": "676a54f9a1780118de2860ae",
                                 "key": 3,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55988",
+                                "_id": "676a54f9a1780118de2860af",
                                 "key": 4,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e55989",
+                                "_id": "676a54f9a1780118de2860b0",
                                 "key": 5,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5598a",
+                                "_id": "676a54f9a1780118de2860b1",
                                 "key": 6,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5598b",
+                                "_id": "676a54f9a1780118de2860b2",
                                 "key": 7,
                                 "value": 0
                             },
                             {
-                                "_id": "67698fc24fa8a085b2e5598c",
+                                "_id": "676a54f9a1780118de2860b3",
                                 "key": 8,
                                 "value": 0
                             }
@@ -2999,7 +2999,7 @@
                                                 "ask_for_config": false
                                             },
                                             "status_cc_zone": {
-                                                "program_state": true,
+                                                "program_state": false,
                                                 "auto_adaptative": false,
                                                 "window_open_hw": false,
                                                 "dew_point_monitor": false,
@@ -3053,9 +3053,9 @@
                                             "fanCoilControllerState": 0,
                                             "mode_used": 0,
                                             "setpoint_used": 698,
-                                            "dewpoint": 81,
-                                            "humidity": 41,
-                                            "temp_zone": 705,
+                                            "dewpoint": 65,
+                                            "humidity": 38,
+                                            "temp_zone": 700,
                                             "openWindow": false,
                                             "FCFlap_active": false,
                                             "FCSysNorPreSpeed": 0,
@@ -3144,7 +3144,7 @@
                                                 "ask_for_config": false
                                             },
                                             "status_cc_zone": {
-                                                "program_state": true,
+                                                "program_state": false,
                                                 "auto_adaptative": false,
                                                 "window_open_hw": false,
                                                 "dew_point_monitor": false,
@@ -3198,7 +3198,7 @@
                                             "fanCoilControllerState": 0,
                                             "mode_used": 0,
                                             "setpoint_used": 698,
-                                            "temp_zone": 697,
+                                            "temp_zone": 701,
                                             "openWindow": false,
                                             "FCFlap_active": false,
                                             "FCSysNorPreSpeed": 0,
@@ -3287,7 +3287,7 @@
                                                 "ask_for_config": false
                                             },
                                             "status_cc_zone": {
-                                                "program_state": true,
+                                                "program_state": false,
                                                 "auto_adaptative": false,
                                                 "window_open_hw": false,
                                                 "dew_point_monitor": false,
@@ -3341,7 +3341,7 @@
                                             "fanCoilControllerState": 0,
                                             "mode_used": 0,
                                             "setpoint_used": 698,
-                                            "temp_zone": 698,
+                                            "temp_zone": 680,
                                             "openWindow": false,
                                             "FCFlap_active": false,
                                             "FCSysNorPreSpeed": 0,
@@ -3409,7 +3409,7 @@
                                                 "lock": false,
                                                 "ring_activation": false,
                                                 "ring_inverted": false,
-                                                "pilot_room": true,
+                                                "pilot_room": false,
                                                 "enable_summer_comp": false,
                                                 "exclude_from_holliday": false,
                                                 "auto_start": false,
@@ -3435,7 +3435,7 @@
                                                 "ask_for_config": false
                                             },
                                             "status_cc_zone": {
-                                                "program_state": true,
+                                                "program_state": false,
                                                 "auto_adaptative": false,
                                                 "window_open_hw": false,
                                                 "dew_point_monitor": false,
@@ -3489,9 +3489,9 @@
                                             "fanCoilControllerState": 0,
                                             "mode_used": 0,
                                             "setpoint_used": 698,
-                                            "dewpoint": 77,
-                                            "humidity": 40,
-                                            "temp_zone": 699,
+                                            "dewpoint": 52,
+                                            "humidity": 35,
+                                            "temp_zone": 687,
                                             "openWindow": false,
                                             "FCFlap_active": false,
                                             "FCSysNorPreSpeed": 0,
@@ -3580,7 +3580,7 @@
                                                 "ask_for_config": false
                                             },
                                             "status_cc_zone": {
-                                                "program_state": true,
+                                                "program_state": false,
                                                 "auto_adaptative": false,
                                                 "window_open_hw": false,
                                                 "dew_point_monitor": false,
@@ -3634,9 +3634,9 @@
                                             "fanCoilControllerState": 0,
                                             "mode_used": 0,
                                             "setpoint_used": 698,
-                                            "dewpoint": 67,
-                                            "humidity": 37,
-                                            "temp_zone": 700,
+                                            "dewpoint": 46,
+                                            "humidity": 33,
+                                            "temp_zone": 695,
                                             "openWindow": false,
                                             "FCFlap_active": false,
                                             "FCSysNorPreSpeed": 0,
@@ -3694,7 +3694,7 @@
                                                 "hc_system": 0,
                                                 "manifold": 0,
                                                 "heating": true,
-                                                "cooling": false,
+                                                "cooling": true,
                                                 "hyst": false,
                                                 "ACF": false,
                                                 "bkt_Presence": false
@@ -3718,8 +3718,8 @@
                                                 "pilot_room": false,
                                                 "enable_summer_comp": true,
                                                 "exclude_from_holliday": false,
-                                                "auto_start": true,
-                                                "open_window": true,
+                                                "auto_start": false,
+                                                "open_window": false,
                                                 "exclude_from_party_global": false
                                             },
                                             "th_config_bits": {
@@ -3783,16 +3783,16 @@
                                             "pgr_day_5": 0,
                                             "pgr_day_6": 0,
                                             "pgr_day_7": 0,
-                                            "pgr_week": 1,
+                                            "pgr_week": 0,
                                             "remote_function": 0,
                                             "setpoint_c_normal": 752,
-                                            "setpoint_c_reduced": 788,
+                                            "setpoint_c_reduced": 590,
                                             "setpoint_h_normal": 698,
-                                            "setpoint_h_reduced": 698,
+                                            "setpoint_h_reduced": 626,
                                             "setpoint_h_standby": 590,
                                             "setpoint_max": 788,
                                             "setpoint_max_summer_compensation": 788,
-                                            "setpoint_min": 752,
+                                            "setpoint_min": 590,
                                             "zone": "672f47e152fd1b6645238829",
                                             "FC_Active": 0,
                                             "demand": 0,
@@ -3800,11 +3800,11 @@
                                             "mode_permanent": 2,
                                             "mode_used": 2,
                                             "setpoint_used": 0,
-                                            "dewpoint": 51,
-                                            "humidity": 61,
+                                            "dewpoint": 31,
+                                            "humidity": 56,
                                             "roomGradCool": 25,
                                             "roomGradHeat": 29,
-                                            "temp_zone": 535,
+                                            "temp_zone": 519,
                                             "humAdapt": true
                                         }
                                     ],
@@ -3953,8 +3953,8 @@
                                 "05": {
                                     "CH": "05",
                                     "heat": true,
-                                    "cool": false,
-                                    "sys": 0,
+                                    "cool": true,
+                                    "sys": 1,
                                     "manifold": 0
                                 },
                                 "06": {
@@ -4018,10 +4018,10 @@
                     "ota_available": false,
                     "ota_pending": false,
                     "__v": 20,
-                    "lastConnection": "2024-12-23T16:26:35.914Z",
-                    "lastTemperatureUpdateDate": "2024-12-23T16:26:04.000Z",
-                    "outsideTempFiltered": 443,
-                    "outside_temp": 378,
+                    "lastConnection": "2024-12-24T06:25:37.263Z",
+                    "lastTemperatureUpdateDate": "2024-12-24T06:25:05.000Z",
+                    "outsideTempFiltered": 433,
+                    "outside_temp": 345,
                     "owner": "6405b4ad2fd56bb9cd309774",
                     "latestStatsFetch": "2024-03-04T21:29:37.138Z",
                     "address": "Troia Troia, Italy",
@@ -4039,8 +4039,8 @@
                     "aws": true,
                     "numbFCInnova": 0,
                     "numbFlapFC": 0,
-                    "lastOutsideServerTempRequest": "2024-12-23T14:31:40.484Z",
-                    "bktOutsideTemp": 28,
+                    "lastOutsideServerTempRequest": "2024-12-24T05:19:50.607Z",
+                    "bktOutsideTemp": 26,
                     "heatCoolPossible": "0000",
                     "geoInstallActive": true,
                     "humAdapt": true,

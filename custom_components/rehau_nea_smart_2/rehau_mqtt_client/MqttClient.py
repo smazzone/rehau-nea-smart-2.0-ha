@@ -46,6 +46,11 @@ class MqttClient:
         self.referentials = None
         self.transaction_id = None
         self.last_operating_mode = None
+        self.last_pumpOn = 0
+        self.last_mc1_setpoint = 0
+        self.last_mc1_supply = 0
+        self.last_mc1_return = 0
+        self.last_mc1_opening = 0
         self.current_installation = {
             "id": None,
             "unique": None,
@@ -334,7 +339,7 @@ class MqttClient:
 
     async def update_installations(self, installations):
         """Write the installations to a file."""
-        self.installations = parse_installations(installations, self.last_operating_mode)
+        self.installations = parse_installations(installations, self.last_operating_mode, self.last_pumpOn, self.last_mc1_setpoint, self.last_mc1_supply, self.last_mc1_return, self.last_mc1_opening)
         await self.publish_updates()
 
     def set_token_data(self, token_data):
@@ -384,6 +389,13 @@ class MqttClient:
             if len(user["installs"]) > 0 and "user" in user["installs"][0] and "heatcool_auto_01" in user["installs"][0]["user"]:
                 self.last_operating_mode = user["installs"][0]["user"]["heatcool_auto_01"]
                 _LOGGER.debug("Setting last operating mode to " + str(self.last_operating_mode))
+
+            self.last_pumpOn = self.installations[0]["pumpOn"]
+            self.last_mc1_setpoint = self.installations[0]["mc1_setpoint"]
+            self.last_mc1_supply = self.installations[0]["mc1_supply"]
+            self.last_mc1_return = self.installations[0]["mc1_return"]
+            self.last_mc1_opening = self.installations[0]["mc1_opening"]
+            
             await self.set_installations(user["installs"])
 
     def get_install_id(self):
