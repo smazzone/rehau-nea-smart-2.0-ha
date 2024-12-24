@@ -390,12 +390,13 @@ class MqttClient:
                 self.last_operating_mode = user["installs"][0]["user"]["heatcool_auto_01"]
                 _LOGGER.debug("Setting last operating mode to " + str(self.last_operating_mode))
 
-            self.last_pumpOn = self.installations[0]["pumpOn"]
-            self.last_mc1_setpoint = self.installations[0]["mc1_setpoint"]
-            self.last_mc1_supply = self.installations[0]["mc1_supply"]
-            self.last_mc1_return = self.installations[0]["mc1_return"]
-            self.last_mc1_opening = self.installations[0]["mc1_opening"]
-            
+            if self.installations is not None:
+                self.last_pumpOn = self.installations[0]["pumpOn"]
+                self.last_mc1_setpoint = self.installations[0]["mc1_setpoint"]
+                self.last_mc1_supply = self.installations[0]["mc1_supply"]
+                self.last_mc1_return = self.installations[0]["mc1_return"]
+                self.last_mc1_opening = self.installations[0]["mc1_opening"]
+
             await self.set_installations(user["installs"])
 
     def get_install_id(self):
