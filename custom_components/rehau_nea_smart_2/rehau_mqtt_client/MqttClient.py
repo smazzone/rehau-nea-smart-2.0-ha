@@ -187,6 +187,11 @@ class MqttClient:
         self.send_topics()
         await self.read_user_http()
 
+    async def refresh_live_data(self):
+        _LOGGER.debug("Refreshing live data")
+        payload = { "11": "REQ_LIVE", "12": { "DATA": "1" } }
+        self.send_message(ClientTopics.INSTALLATION.value, payload)
+
     def refresh(self):
         """Refresh the user data periodically."""
         _LOGGER.debug("Refreshing user data")
@@ -546,6 +551,7 @@ class MqttClient:
         """Start the scheduler in a separate thread."""
         _LOGGER.debug("Starting scheduler thread")
         aiocron.crontab("*/1 * * * *", func=self.refresh_http, start=True)
+        aiocron.crontab("*/1 * * * *", func=self.refresh_live_data, start=True)
         aiocron.crontab("*/5 * * * *", func=self.request_server_referentials, start=True)
         if "access_token" in self.token_data:
             _LOGGER.debug("Scheduling token refresh")
