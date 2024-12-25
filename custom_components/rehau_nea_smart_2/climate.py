@@ -17,6 +17,7 @@ from homeassistant.components.climate import (
     ClimateEntityDescription,
     ClimateEntityFeature,
     HVACMode,
+    HVACAction
 )
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.const import UnitOfTemperature
@@ -139,6 +140,7 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
         self._attr_supported_features |= ClimateEntityFeature.PRESET_MODE
         self._attr_supported_features |= ClimateEntityFeature.TARGET_TEMPERATURE
         self._attr_hvac_modes = [HVACMode.AUTO, HVACMode.HEAT, HVACMode.COOL]
+        self._attr_hvac_action = HVACAction.IDLE
         self._attr_preset_modes = list(PRESET_ENERGY_LEVELS_MAPPING.keys())
         self.entity_description = entity_description
 
@@ -203,6 +205,26 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
             return PRESET_CLIMATE_MODES_MAPPING[channel.operating_mode]
 
         return self._attr_hvac_mode
+    
+    @property
+    def hvac_action(self) -> str | None:
+        """Hvac action."""
+        _LOGGER.debug(f"Getting HVAC action for zone {self._zone_number}")
+        zone = self._controller.get_zone(self._zone_number)
+        if zone is not None:
+            channel = zone.channels[0]
+            if channel.demand == 0:
+                return HVACAction.IDLE
+            else:
+                if self._attr_hvac_mode == HVACMode.OFF:
+                    return HVACAction.IDLE
+                elif self._attr_hvac_mode == HVACMode.AUTO:
+                    return HVACAction.COOLING
+                elif self._attr_hvac_mode == HVACMode.HEAT:
+                    return HVACAction.HEATING
+                elif self._attr_hvac_mode == HVACMode.COOL:
+                    return HVACAction.COOLING
+        return self._attr_hvac_action
 
     @property
     def preset_mode(self) -> str | None:

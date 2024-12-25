@@ -36,6 +36,7 @@ class Channel(BaseModel):
     energy_level: int
     operating_mode: int
     humidity: int
+    demand: int
     setpoints: Setpoints
 
 

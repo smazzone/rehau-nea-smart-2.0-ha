@@ -48,6 +48,7 @@ def parse_installations(installations, last_operation_mode, last_pumpOn, last_mc
                                 {
                                     "id": channel["_id"],
                                     "humidity": channel.get("humidity",0),
+                                    "demand": channel["demand"],
                                     "target_temperature": channel["setpoint_used"],
                                     "current_temperature": channel["temp_zone"],
                                     "energy_level": channel["mode_permanent"],
