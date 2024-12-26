@@ -460,6 +460,9 @@ class MqttClient:
     async def update_live_emu(self, payload: dict):        
         install_id = payload["install_id"]
 
+        if live_emus is None:
+            live_emus = [{"unique": install_id }]
+
         live_emu = next(
             (
                 live_emu
@@ -469,7 +472,8 @@ class MqttClient:
             None,
         )
         if live_emu is None:
-            raise MqttClientError("No live emu found for id " + install_id)
+            live_emu = {"unique": install_id }
+            live_emus.append(live_emu)
 
         live_emu["pumpOn"] = payload["pumpOn"]
         live_emu["mixed_circuit1_setpoint"] = payload["mixed_circuit1_setpoint"]

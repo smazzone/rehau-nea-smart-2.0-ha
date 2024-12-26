@@ -256,7 +256,7 @@ class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
     _attr_has_entity_name = True
     should_poll = False
 
-    def __init__(self, controller: Controller, live_emu: LiveEmu, propertyname: str, name: str, entity_description: SensorEntityDescription):
+    def __init__(self, controller: Controller, live_emu: dict, propertyname: str, name: str, entity_description: SensorEntityDescription):
         """Initialize the generic sensor class."""
         self._live_emu = live_emu
         self._controller = controller
