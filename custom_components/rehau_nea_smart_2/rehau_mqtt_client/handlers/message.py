@@ -78,6 +78,7 @@ async def handle_referential(message, client):
 async def handle_live_data(message, client):
     """Handle referential."""    
     if message["data"]["type"] == "LIVE_DIDO":
+        data = message["data"]["data"]["00"]
     elif message["data"]["type"] == "LIVE_EMU":
         data = message["data"]["data"]["MC0"]
         await client.update_live_emu({
