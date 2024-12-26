@@ -80,6 +80,7 @@ async def handle_live_data(message, client):
     if message["data"]["type"] == "LIVE_DIDO":
         data = message["data"]["data"]["00"]
         await client.update_live_dido({
+            "install_id": message["data"]["unique"],
             "DI_1": data["DI"][0],
             "DI_2": data["DI"][1],
             "DI_3": data["DI"][2],
