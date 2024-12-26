@@ -79,7 +79,7 @@ class Controller:
         Returns:
             list[dict]: The list of installations as a dictionary.
         """
-        return self.mqtt_client.live_emus()
+        return self.mqtt_client.get_live_emus()
 
     def get_zones(self) -> list[Zone]:
         """Retrieve the list of zones.
