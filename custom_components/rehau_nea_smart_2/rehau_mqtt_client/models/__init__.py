@@ -8,6 +8,7 @@ from .installation import (
     Zone,
     Group,
     Installation,
+    LiveEmu
 )
 
 def __init__():
