@@ -11,6 +11,7 @@ from .models import (
     Zone,
     Group,
     Installation,
+    LiveEmu
 )
 from .utils import EnergyLevels, OperationModes
 from .exceptions import (
