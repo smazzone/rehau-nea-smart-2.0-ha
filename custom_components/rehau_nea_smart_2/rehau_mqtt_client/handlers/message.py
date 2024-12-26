@@ -77,21 +77,17 @@ async def handle_referential(message, client):
 
 async def handle_live_data(message, client):
     """Handle referential."""    
-    unique = message["data"]["unique"]
-    circ_data = message["data"]["data"]["MC0"]
-    pumpOn = circ_data["pumpOn"]
-    mixed_circuit1_setpoint = circ_data["mixed_circuit1_setpoint"]
-    mixed_circuit1_supply = circ_data["mixed_circuit1_supply"]
-    mixed_circuit1_return = circ_data["mixed_circuit1_return"]
-    mixed_circuit1_opening = circ_data["mixed_circuit1_opening"]
+    if message["data"]["type"] == "LIVE_DIDO":
+    elif message["data"]["type"] == "LIVE_EMU":
+        data = message["data"]["data"]["MC0"]
+        await client.update_live_emu({
+            "install_id": message["data"]["unique"],
+            "pumpOn": data["pumpOn"],
+            "mixed_circuit1_setpoint": data["mixed_circuit1_setpoint"],
+            "mixed_circuit1_supply": data["mixed_circuit1_supply"],
+            "mixed_circuit1_return": data["mixed_circuit1_return"],
+            "mixed_circuit1_opening": data["mixed_circuit1_opening"]
+        })
     
-    await client.update_live_data({
-        "install_id": unique,
-        "pumpOn": pumpOn,
-        "mixed_circuit1_setpoint": mixed_circuit1_setpoint,
-        "mixed_circuit1_supply": mixed_circuit1_supply,
-        "mixed_circuit1_return": mixed_circuit1_return,
-        "mixed_circuit1_opening": mixed_circuit1_opening
-    })
 
     _LOGGER.debug("live data: {0}".format(message))

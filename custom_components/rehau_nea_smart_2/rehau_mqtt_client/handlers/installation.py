@@ -15,7 +15,7 @@ def is_installation_connected(installation) -> bool:
 
     return False
 
-def parse_installations(installations, last_operation_mode, last_pumpOn, last_mc1_setpoint, last_mc1_supply, last_mc1_return, last_mc1_opening) -> list[Installation]:
+def parse_installations(installations, last_operation_mode) -> list[Installation]:
     """Parse installations data."""
 
     installations_data = [
@@ -25,11 +25,6 @@ def parse_installations(installations, last_operation_mode, last_pumpOn, last_mc
             "unique": installation["unique"],
             "outside_temp": installation["outside_temp"],
             "outsideTempFiltered": installation["outsideTempFiltered"],
-            "pumpOn": last_pumpOn,
-            "mixed_circuit1_setpoint": last_mc1_setpoint,
-            "mixed_circuit1_supply": last_mc1_supply,
-            "mixed_circuit1_return": last_mc1_return,
-            "mixed_circuit1_opening": last_mc1_opening,
             "hash": installation["hash"] if "hash" in installation else None,
             "global_energy_level": get_global_energy_level(installation).value,
             "operating_mode": parse_operating_mode(

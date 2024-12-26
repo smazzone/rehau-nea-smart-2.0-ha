@@ -2,7 +2,7 @@
 from collections.abc import Callable
 from .utils import replace_keys, EnergyLevels, OperationModes, ClientTopics
 from .handlers import update_temperature, update_energy_level, update_operating_mode
-from .models import Installation, Zone
+from .models import Installation, Zone, LiveEmu
 from .MqttClient import MqttClient
 from .exceptions import MqttClientError
 from homeassistant.core import HomeAssistant
@@ -72,6 +72,14 @@ class Controller:
             list[dict]: The list of installations as a dictionary.
         """
         return self.mqtt_client.get_installations()
+
+    def get_live_emus_as_dict(self) -> list[dict]:
+        """Retrieve the list of installations as a dictionary.
+
+        Returns:
+            list[dict]: The list of installations as a dictionary.
+        """
+        return self.mqtt_client.live_emus()
 
     def get_zones(self) -> list[Zone]:
         """Retrieve the list of zones.
@@ -403,3 +411,12 @@ class Controller:
             for installation in Installations:
                 if installation["unique"] == installation_unique:
                     return installation
+    
+    def get_live_emu_by_unique(self, installation_unique: str):
+            """Return the installation."""
+            LiveEmus = self.get_live_emus_as_dict()
+            if LiveEmus is None:
+                return False
+            for live_emu in LiveEmus:
+                if live_emu["unique"] == installation_unique:
+                    return live_emu

@@ -12,7 +12,7 @@ from homeassistant.const import (
     UnitOfTemperature,
 )
 
-from .rehau_mqtt_client import Installation, Zone
+from .rehau_mqtt_client import Installation, Zone, LiveEmu
 from .rehau_mqtt_client.Controller import Controller
 
 from .const import DOMAIN
@@ -56,19 +56,21 @@ async def async_setup_entry(hass, entry, async_add_devices):
                     controller, installation, "outsideTempFiltered", "Filtered Outside Temperature", entity_description
                 )
             )
+            live_emu = controller.get_live_emu_by_unique(installation.unique)
+
             devices.append(
-                RehauNeasmart2OutdoorTemperatureSensor(
-                    controller, installation, "mixed_circuit1_setpoint", "MC1 Setpoint Temperature", entity_description
+                RehauNeasmart2LiveEmuTemperatureSensor(
+                    controller, live_emu, "mixed_circuit1_setpoint", "MC1 Setpoint Temperature", entity_description
                 )
             )
             devices.append(
-                RehauNeasmart2OutdoorTemperatureSensor(
-                    controller, installation, "mixed_circuit1_supply", "MC1 Supply Temperature", entity_description
+                RehauNeasmart2LiveEmuTemperatureSensor(
+                    controller, live_emu, "mixed_circuit1_supply", "MC1 Supply Temperature", entity_description
                 )
             )
             devices.append(
-                RehauNeasmart2OutdoorTemperatureSensor(
-                    controller, installation, "mixed_circuit1_return", "MC1 Return Temperature", entity_description
+                RehauNeasmart2LiveEmuTemperatureSensor(
+                    controller, live_emu, "mixed_circuit1_return", "MC1 Return Temperature", entity_description
                 )
             )
             for group in installation.groups:
@@ -243,4 +245,63 @@ class RehauNeasmart2OutdoorTemperatureSensor(SensorEntity, RestoreEntity):
         """Return the state of the sensor."""
         installation = self._controller.get_installation_by_unique(self._installation_unique)
         return round((installation.get(self._propertyname) / 10 - 32) / 1.8, 1)
+
+
+class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
+    """Temperature sensor class for outdoor Rehau Neasmart."""
+
+    device_class = TEMPERATURE
+    _attr_native_unit_of_measurement = UnitOfTemperature.CELSIUS
+
+    _attr_has_entity_name = True
+    should_poll = False
+
+    def __init__(self, controller: Controller, live_emu: LiveEmu, propertyname: str, name: str, entity_description: SensorEntityDescription):
+        """Initialize the generic sensor class."""
+        self._live_emu = live_emu
+        self._controller = controller
+        self._available = True
+        self._name = f"{name}"
+        self._propertyname = propertyname
+        self._live_emu_unique = live_emu.unique
+        self._state = round((getattr(self._live_emu, propertyname) / 10 - 32) / 1.8, 1)
+        self._unique_name = name.lower().replace(" ", "_")
+        self._attr_unique_id = f"{self._live_emu_unique}_{self._unique_name}"
+        self._attr_name = self._name
+        self.entity_description = entity_description
+
+    async def async_added_to_hass(self) -> None:
+        """Run when this Entity has been added to HA."""
+        self._controller.register_callback(self.async_write_ha_state)
+
+    async def async_will_remove_from_hass(self):
+        """Run when this Entity will be removed from HA."""
+        self._controller.remove_callback(self.async_write_ha_state)
+
+    @property
+    def device_info(self):
+        """Return device information for the sensor."""
+        return DeviceInfo(
+            identifiers={(DOMAIN, self._controller.id)},
+            name=self._controller.name,
+            manufacturer=self._controller.manufacturer,
+            model=self._controller.model,
+        )
+
+    @property
+    def available(self) -> bool:
+        """Return True if the climate entity is available."""
+        return self._controller.is_connected(self._live_emu_unique)
+
+    @property
+    def native_value(self) -> float | None:
+        """Return the native value of the sensor."""
+        live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
+        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
+
+    @property
+    def state(self):
+        """Return the state of the sensor."""
+        live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
+        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
 

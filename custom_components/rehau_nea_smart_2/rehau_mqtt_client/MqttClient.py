@@ -42,15 +42,11 @@ class MqttClient:
         self.token_data = None
         self.user = None
         self.installations = None
+        self.live_emus = None
         self.authenticated = False
         self.referentials = None
         self.transaction_id = None
         self.last_operating_mode = None
-        self.last_pumpOn = 0
-        self.last_mc1_setpoint = 0
-        self.last_mc1_supply = 0
-        self.last_mc1_return = 0
-        self.last_mc1_opening = 0
         self.current_installation = {
             "id": None,
             "unique": None,
@@ -344,7 +340,7 @@ class MqttClient:
 
     async def update_installations(self, installations):
         """Write the installations to a file."""
-        self.installations = parse_installations(installations, self.last_operating_mode, self.last_pumpOn, self.last_mc1_setpoint, self.last_mc1_supply, self.last_mc1_return, self.last_mc1_opening)
+        self.installations = parse_installations(installations, self.last_operating_mode)
         await self.publish_updates()
 
     def set_token_data(self, token_data):
@@ -362,6 +358,14 @@ class MqttClient:
             list: The list of installations.
         """
         return self.installations
+
+    def get_live_emus(self):
+        """Get the list of installations.
+
+        Returns:
+            list: The list of installations.
+        """
+        return self.live_emus
 
     def get_user(self):
         """Get the user data.
@@ -395,12 +399,6 @@ class MqttClient:
                 self.last_operating_mode = user["installs"][0]["user"]["heatcool_auto_01"]
                 _LOGGER.debug("Setting last operating mode to " + str(self.last_operating_mode))
 
-            if self.installations is not None:
-                self.last_pumpOn = self.installations[0]["pumpOn"]
-                self.last_mc1_setpoint = self.installations[0]["mixed_circuit1_setpoint"]
-                self.last_mc1_supply = self.installations[0]["mixed_circuit1_supply"]
-                self.last_mc1_return = self.installations[0]["mixed_circuit1_return"]
-                self.last_mc1_opening = self.installations[0]["mixed_circuit1_opening"]
 
             await self.set_installations(user["installs"])
 
@@ -459,25 +457,26 @@ class MqttClient:
         }
         self.send_message(ServerTopics.USER_REFERENTIAL.value, payload)
 
-    async def update_live_data(self, payload: dict):        
+    async def update_live_emu(self, payload: dict):        
         install_id = payload["install_id"]
 
-        installation = next(
+        live_emu = next(
             (
-                installation
-                for installation in self.installations
-                if installation["unique"] == install_id
+                live_emu
+                for live_emu in self.live_emus
+                if live_emu["unique"] == install_id
             ),
             None,
         )
-        if installation is None:
-            raise MqttClientError("No installation found for id " + install_id)
+        if live_emu is None:
+            live_emu["unique"] = install_id
+            self.live_emus.append(live_emu)
 
-        installation["pumpOn"] = payload["pumpOn"]
-        installation["mixed_circuit1_setpoint"] = payload["mixed_circuit1_setpoint"]
-        installation["mixed_circuit1_supply"] = payload["mixed_circuit1_supply"]
-        installation["mixed_circuit1_return"] = payload["mixed_circuit1_return"]
-        installation["mixed_circuit1_opening"] = payload["mixed_circuit1_opening"]
+        live_emu["pumpOn"] = payload["pumpOn"]
+        live_emu["mixed_circuit1_setpoint"] = payload["mixed_circuit1_setpoint"]
+        live_emu["mixed_circuit1_supply"] = payload["mixed_circuit1_supply"]
+        live_emu["mixed_circuit1_return"] = payload["mixed_circuit1_return"]
+        live_emu["mixed_circuit1_opening"] = payload["mixed_circuit1_opening"]
 
         await self.publish_updates()
 

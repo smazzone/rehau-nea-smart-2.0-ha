@@ -68,7 +68,10 @@ class Installation(BaseModel):
     groups: list[Group]
     outside_temp: int
     outsideTempFiltered: int
-    pumpOn: int
+
+class LiveEmu(BaseModel):
+    unique: str
+    pumpOn: bool
     mixed_circuit1_setpoint: int
     mixed_circuit1_supply: int
     mixed_circuit1_return: int
