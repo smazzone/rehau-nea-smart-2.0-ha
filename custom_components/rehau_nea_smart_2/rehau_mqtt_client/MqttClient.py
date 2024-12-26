@@ -496,7 +496,7 @@ class MqttClient:
         channel_id = payload["channel_id"]
         install_id = payload["install_id"]
         mode_used = payload["mode_used"]
-        setpoint_used = payload["setpoint_used"]
+        setpoint_used = payload["setpoint_used"] if payload["setpoint_used"]>0 else None
 
         installation = next(
             (
