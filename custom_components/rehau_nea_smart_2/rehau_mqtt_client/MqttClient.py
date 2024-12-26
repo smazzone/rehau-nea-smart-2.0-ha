@@ -469,8 +469,7 @@ class MqttClient:
             None,
         )
         if live_emu is None:
-            live_emu = {"unique": install_id}
-            self.live_emus.append(live_emu)
+            raise MqttClientError("No live emu found for id " + install_id)
 
         live_emu["pumpOn"] = payload["pumpOn"]
         live_emu["mixed_circuit1_setpoint"] = payload["mixed_circuit1_setpoint"]
