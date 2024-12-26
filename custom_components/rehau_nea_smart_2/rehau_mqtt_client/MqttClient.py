@@ -460,7 +460,7 @@ class MqttClient:
     async def update_live_emu(self, payload: dict):        
         install_id = payload["install_id"]
 
-        if live_emus is None:
+        if self.live_emus is None:
             live_emus = [{"unique": install_id }]
 
         live_emu = next(
