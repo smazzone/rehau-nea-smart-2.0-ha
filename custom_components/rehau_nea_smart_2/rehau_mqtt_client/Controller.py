@@ -74,7 +74,7 @@ class Controller:
         live_emus = self.mqtt_client.get_live_emus()
         if live_emus is None:
             return None
-        return [LiveEmu(**live_emu) forlive_emu in live_emus]
+        return [LiveEmu(**live_emu) for forlive_emu in live_emus]
 
     def get_installations_as_dict(self) -> list[dict]:
         """Retrieve the list of installations as a dictionary.
