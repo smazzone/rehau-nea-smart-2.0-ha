@@ -425,9 +425,9 @@ class Controller:
     
     def get_live_emu_by_unique(self, installation_unique: str):
             """Return the installation."""
-            LiveEmus = self.get_live_emus()
+            LiveEmus = self.get_live_emus_as_dict()
             if LiveEmus is None:
-                return LiveEmu(unique = installation_unique, pumpOn = 0, mixed_circuit1_setpoint = 0, mixed_circuit1_supply = 0, mixed_circuit1_return= 0, mixed_circuit1_opening = 0 )
+                return {"unique": installation_unique, "pumpOn": 0, "mixed_circuit1_setpoint": 0, "mixed_circuit1_supply": 0, "mixed_circuit1_return": 0, "mixed_circuit1_opening": 0 }
             for live_emu in LiveEmus:
-                if live_emu.unique == installation_unique:
+                if live_emu["unique"] == installation_unique:
                     return live_emu

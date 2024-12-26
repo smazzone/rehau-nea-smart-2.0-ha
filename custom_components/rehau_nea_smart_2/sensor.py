@@ -56,7 +56,7 @@ async def async_setup_entry(hass, entry, async_add_devices):
                     controller, installation, "outsideTempFiltered", "Filtered Outside Temperature", entity_description
                 )
             )
-            live_emu: LiveEmu = controller.get_live_emu_by_unique(installation.unique)
+            live_emu = controller.get_live_emu_by_unique(installation.unique)
 
             devices.append(
                 RehauNeasmart2LiveEmuTemperatureSensor(
@@ -263,7 +263,7 @@ class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
         self._available = True
         self._name = f"{name}"
         self._propertyname = propertyname
-        self._live_emu_unique = live_emu.unique
+        self._live_emu_unique = live_emu["unique"]
         self._state = round((getattr(self._live_emu, propertyname) / 10 - 32) / 1.8, 1)
         self._unique_name = name.lower().replace(" ", "_")
         self._attr_unique_id = f"{self._live_emu_unique}_{self._unique_name}"
@@ -296,12 +296,10 @@ class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
     @property
     def native_value(self) -> float | None:
         """Return the native value of the sensor."""
-        live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
-        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
+        return round((self._live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
 
     @property
     def state(self):
         """Return the state of the sensor."""
-        live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
-        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
+        return round((self._live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
 

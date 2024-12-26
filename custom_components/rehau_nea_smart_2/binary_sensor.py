@@ -32,7 +32,7 @@ async def async_setup_entry(hass, entry, async_add_entities) -> None:
 
     for entity_description in ENTITY_DESCRIPTIONS:
         for installation in installations:
-        		live_emu: LiveEmu = controller.get_live_emu_by_unique(installation.unique)
+        	live_emu: LiveEmu = controller.get_live_emu_by_unique(installation.unique)
 
             devices.append(
                 RehauNeasmart2BinarySensorSensor(
@@ -41,18 +41,17 @@ async def async_setup_entry(hass, entry, async_add_entities) -> None:
             )
 
     async_add_entities(devices)
-    s
 
 
 class RehauNeasmart2BinarySensorSensor(SensorEntity, BinarySensorEntity):
 
-		def __init__(self, controller: Controller, live_emu: LiveEmu, propertyname: str, name: str, entity_description: SensorEntityDescription):
-				self._live_emu = live_emu
+	def __init__(self, controller: Controller, live_emu: LiveEmu, propertyname: str, name: str, entity_description: SensorEntityDescription):
+		self._live_emu = live_emu
         self._controller = controller
         self._available = True
         self._name = f"{name}"
         self._propertyname = propertyname
-        self._installation_unique = live_emu.unique
+        self._installation_unique = live_emu["unique"]
         self._unique_name = name.lower().replace(" ", "_")
         self._attr_unique_id = f"{self._installation_unique}_{self._unique_name}"
         self._attr_name = self._name
