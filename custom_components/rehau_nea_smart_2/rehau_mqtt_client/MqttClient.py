@@ -253,6 +253,7 @@ class MqttClient:
         topic = self.replace_wildcards(topic)
         _LOGGER.debug(f"Sending message {topic}: {json_message}")
         result, mid = self.client.publish(topic, payload=json_message)
+        _LOGGER.debug(f"Message {topic} result: {result}")
         if result != mqtt.MQTT_ERR_SUCCESS:
             self.number_of_message_failures += 1
             if self.number_of_message_failures > 5:
