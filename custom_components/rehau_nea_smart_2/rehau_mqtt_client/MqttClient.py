@@ -300,7 +300,7 @@ class MqttClient:
         self.client = mqtt.Client(client_id=self.client_id, transport="websockets")
         self.client.username_pw_set(self.username + "?x-amz-customauthorizer-name=app-front",
                                     self.token_data['access_token'])
-        self.client.tls_set(cert_reqs=ssl.CERT_NONE)
+        self.client.tls_set()
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message_callback
         self.client.on_disconnect = self.on_disconnect
