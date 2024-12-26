@@ -83,9 +83,8 @@ class IntegrationRehauNeaSmart2Climate(ClimateEntity, RestoreEntity):
             "heating_standby": channel.setpoints.heating.standby,
             "cooling_normal": channel.setpoints.cooling.normal,
             "cooling_reduced": channel.setpoints.cooling.reduced,
+            "current_humidity": channel.humidity
         }
-        if channel.humidity!=0:
-            attributes["current_humidity"] = channel.humidity
 
         for attribute in attributes:
             setattr(self, f"_{attribute}", attributes[attribute])
@@ -150,8 +149,7 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
         self._attr_target_temperature = self.format_temperature(self._target_temp, True)
         self._attr_max_temp = self.format_temperature(self._max_temp)
         self._attr_min_temp = self.format_temperature(self._min_temp)
-        if hasattr(self, '_current_humidity'):
-            self._attr_current_humidity = self._current_humidity
+        self._attr_current_humidity = self._current_humidity
 
     def format_temperature(self, temperature, round_half=False) -> float:
         """Format the temperature."""
@@ -191,7 +189,7 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
         zone = self._controller.get_zone(self._zone_number)
         if zone is not None:
             channel = zone.channels[0]
-            return channel.humidity
+            return channel.humidity if channel.humidity>0 else None
 
         return self._attr_current_humidity
 
