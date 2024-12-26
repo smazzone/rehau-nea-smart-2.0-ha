@@ -43,6 +43,7 @@ class MqttClient:
         self.user = None
         self.installations = None
         self.live_emus = None
+        self.live_didos = None
         self.authenticated = False
         self.referentials = None
         self.transaction_id = None
@@ -186,6 +187,8 @@ class MqttClient:
     async def refresh_live_data(self):
         _LOGGER.debug("Refreshing live data")
         payload = { "11": "REQ_LIVE", "12": { "DATA": "1" } }
+        self.send_message(ClientTopics.INSTALLATION.value, payload)
+        payload = { "11": "REQ_LIVE", "12": { "DATA": "0" } }
         self.send_message(ClientTopics.INSTALLATION.value, payload)
 
     def refresh(self):
@@ -368,6 +371,14 @@ class MqttClient:
         """
         return self.live_emus
 
+    def get_live_didos(self):
+        """Get the list of installations.
+
+        Returns:
+            list: The list of installations.
+        """
+        return self.live_didos
+
     def get_user(self):
         """Get the user data.
 
@@ -481,6 +492,38 @@ class MqttClient:
         live_emu["mixed_circuit1_supply"] = payload["mixed_circuit1_supply"]
         live_emu["mixed_circuit1_return"] = payload["mixed_circuit1_return"]
         live_emu["mixed_circuit1_opening"] = payload["mixed_circuit1_opening"]
+
+        await self.publish_updates()
+
+    async def update_live_dido(self, payload: dict):        
+        install_id = payload["install_id"]
+
+        if self.live_didos is None:
+            self.live_didos = [{"unique": install_id }]
+
+        live_dido = next(
+            (
+                live_dido
+                for live_dido in self.live_didos
+                if live_dido["unique"] == install_id
+            ),
+            None,
+        )
+        if live_dido is None:
+            live_dido = {"unique": install_id }
+            self.live_didos.append(live_dido)
+
+        live_dido["DI_1"] = payload["DI_1"]
+        live_dido["DI_2"] = payload["DI_2"]
+        live_dido["DI_3"] = payload["DI_3"]
+        live_dido["DI_4"] = payload["DI_4"]
+        live_dido["DI_5"] = payload["DI_5"]
+        live_dido["DO_1"] = payload["DO_1"]
+        live_dido["DO_2"] = payload["DO_2"]
+        live_dido["DO_3"] = payload["DO_3"]
+        live_dido["DO_4"] = payload["DO_4"]
+        live_dido["DO_5"] = payload["DO_5"]
+        
 
         await self.publish_updates()
 

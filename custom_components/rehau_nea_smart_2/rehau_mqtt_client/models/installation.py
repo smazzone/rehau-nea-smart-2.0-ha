@@ -76,3 +76,16 @@ class LiveEmu(BaseModel):
     mixed_circuit1_supply: int
     mixed_circuit1_return: int
     mixed_circuit1_opening: int
+
+class LiveDido(BaseModel):
+    unique: str
+    DI_1: bool
+    DI_2: bool
+    DI_3: bool
+    DI_4: bool
+    DI_5: bool
+    DO_1: bool
+    DO_2: bool
+    DO_3: bool
+    DO_4: bool
+    DO_5: bool

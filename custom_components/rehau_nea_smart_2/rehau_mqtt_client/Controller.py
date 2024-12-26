@@ -92,6 +92,14 @@ class Controller:
         """
         return self.mqtt_client.get_live_emus()
 
+    def get_live_didos_as_dict(self) -> list[dict]:
+        """Retrieve the list of installations as a dictionary.
+
+        Returns:
+            list[dict]: The list of installations as a dictionary.
+        """
+        return self.mqtt_client.get_live_didos()
+
     def get_zones(self) -> list[Zone]:
         """Retrieve the list of zones.
 
@@ -431,3 +439,12 @@ class Controller:
             for live_emu in LiveEmus:
                 if live_emu["unique"] == installation_unique:
                     return live_emu
+    
+    def get_live_dido_by_unique(self, installation_unique: str):
+            """Return the installation."""
+            LiveDidos = self.get_live_didos_as_dict()
+            if LiveDidos is None:
+                return {"unique": installation_unique, "DI_1": 0, "DI_2": 0, "DI_3": 0, "DI_4": 0, "DI_5": 0, "DO_1": 0, "DO_2": 0, "DO_3": 0, "DO_4": 0, "DO_5": 0 }
+            for live_dido in LiveDidos:
+                if live_dido["unique"] == installation_unique:
+                    return live_dido

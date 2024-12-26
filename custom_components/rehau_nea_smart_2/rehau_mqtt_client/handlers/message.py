@@ -79,6 +79,18 @@ async def handle_live_data(message, client):
     """Handle referential."""    
     if message["data"]["type"] == "LIVE_DIDO":
         data = message["data"]["data"]["00"]
+        await client.update_live_dido({
+            "DI_1": data["DI"][0]
+            "DI_2": data["DI"][1]
+            "DI_3": data["DI"][2]
+            "DI_4": data["DI"][3]
+            "DI_5": data["DI"][4]
+            "DO_1": data["DO"][0]
+            "DO_2": data["DO"][1]
+            "DO_3": data["DO"][2]
+            "DO_4": data["DO"][3]
+            "DO_5": data["DO"][4]
+        })
     elif message["data"]["type"] == "LIVE_EMU":
         data = message["data"]["data"]["MC0"]
         await client.update_live_emu({
