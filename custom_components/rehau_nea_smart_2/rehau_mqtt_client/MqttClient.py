@@ -469,7 +469,7 @@ class MqttClient:
             None,
         )
         if live_emu is None:
-            live_emu["unique"] = install_id
+            live_emu = {"unique": install_id}
             self.live_emus.append(live_emu)
 
         live_emu["pumpOn"] = payload["pumpOn"]

@@ -416,8 +416,7 @@ class Controller:
             """Return the installation."""
             LiveEmus = self.get_live_emus_as_dict()
             if LiveEmus is None:
-                live_emu["unique"] = installation_unique
-                return live_emu
+                return {"unique": installation_unique}
             for live_emu in LiveEmus:
                 if live_emu["unique"] == installation_unique:
                     return live_emu
