@@ -56,7 +56,7 @@ async def async_setup_entry(hass, entry, async_add_devices):
                     controller, installation, "outsideTempFiltered", "Filtered Outside Temperature", entity_description
                 )
             )
-            live_emu = controller.get_live_emu_by_unique(installation.unique)
+            live_emu: LiveEmu = controller.get_live_emu_by_unique(installation.unique)
 
             devices.append(
                 RehauNeasmart2LiveEmuTemperatureSensor(
