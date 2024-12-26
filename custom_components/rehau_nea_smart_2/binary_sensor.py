@@ -66,4 +66,5 @@ class RehauNeasmart2BinarySensor(BinarySensorEntity):
 	@property
 	def is_on(self) -> bool:
 		"""Return true if the binary_sensor is on."""
-		return self._live_emu.get(self._propertyname)
+		live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
+		return live_emu.get(self._propertyname)
