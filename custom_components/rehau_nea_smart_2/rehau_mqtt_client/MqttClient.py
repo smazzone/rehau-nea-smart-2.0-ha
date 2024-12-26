@@ -42,7 +42,7 @@ class MqttClient:
         self.token_data = None
         self.user = None
         self.installations = None
-        self.live_emus = []
+        self.live_emus = None
         self.authenticated = False
         self.referentials = None
         self.transaction_id = None
