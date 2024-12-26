@@ -186,7 +186,8 @@ class RehauNeasmart2HumiditySensor(RehauNeasmartGenericSensor):
     @property
     def state(self):
         """Return the state of the sensor."""
-        return self._controller.get_humidity(self._zone_number)
+        val = self._controller.get_humidity(self._zone_number)
+        return val if val>0 else None
 
 class RehauNeasmart2OutdoorTemperatureSensor(SensorEntity, RestoreEntity):
     """Temperature sensor class for outdoor Rehau Neasmart."""
