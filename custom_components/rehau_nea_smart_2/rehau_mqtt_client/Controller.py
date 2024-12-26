@@ -65,6 +65,17 @@ class Controller:
             return None
         return [Installation(**installation) for installation in installations]
 
+    def get_live_emus(self) -> list[LiveEmu]:
+        """Retrieve the list of installations.
+
+        Returns:
+            list[Installation]: The list of installations.
+        """
+        live_emus = self.mqtt_client.get_live_emus()
+        if live_emus is None:
+            return None
+        return [LiveEmu(**live_emu) forlive_emu in live_emus]
+
     def get_installations_as_dict(self) -> list[dict]:
         """Retrieve the list of installations as a dictionary.
 
@@ -414,9 +425,9 @@ class Controller:
     
     def get_live_emu_by_unique(self, installation_unique: str):
             """Return the installation."""
-            LiveEmus = self.get_live_emus_as_dict()
+            LiveEmus = self.get_live_emus()
             if LiveEmus is None:
-                return {"unique": installation_unique}
+                return LiveEmu(unique=installation_unique)
             for live_emu in LiveEmus:
-                if live_emu["unique"] == installation_unique:
+                if live_emu.unique == installation_unique:
                     return live_emu
