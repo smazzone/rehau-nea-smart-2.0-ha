@@ -178,7 +178,7 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
         zone = self._controller.get_zone(self._zone_number)
         if zone is not None:
             channel = zone.channels[0]
-            return self.format_temperature(channel.target_temperature, True) if channel.target_temperature>0 else None
+            return self.format_temperature(channel.target_temperature, True) if channel.target_temperature>0 else channel.current_temperature
 
         return self._attr_target_temperature
 
