@@ -265,7 +265,7 @@ class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
         self._name = f"{name}"
         self._propertyname = propertyname
         self._live_emu_unique = live_emu["unique"]
-        self._state = round((live_emu.get(propertyname) / 10 - 32) / 1.8, 1)
+        self._state = round((live_emu.get(propertyname) / 10 - 32) / 1.8, 1) if live_emu.get(propertyname) is not None else None
         self._unique_name = name.lower().replace(" ", "_")
         self._attr_unique_id = f"{self._live_emu_unique}_{self._unique_name}"
         self._attr_name = self._name
