@@ -435,7 +435,7 @@ class Controller:
             """Return the installation."""
             LiveEmus = self.get_live_emus_as_dict()
             if LiveEmus is None:
-                return {"unique": installation_unique, "pumpOn": 0, "mixed_circuit1_setpoint": 0, "mixed_circuit1_supply": 0, "mixed_circuit1_return": 0, "mixed_circuit1_opening": 0 }
+                return {"unique": installation_unique, "pumpOn": None, "mixed_circuit1_setpoint": None, "mixed_circuit1_supply": None, "mixed_circuit1_return": None, "mixed_circuit1_opening": None }
             for live_emu in LiveEmus:
                 if live_emu["unique"] == installation_unique:
                     return live_emu
@@ -444,7 +444,7 @@ class Controller:
             """Return the installation."""
             LiveDidos = self.get_live_didos_as_dict()
             if LiveDidos is None:
-                return {"unique": installation_unique, "DI_1": 0, "DI_2": 0, "DI_3": 0, "DI_4": 0, "DI_5": 0, "DO_1": 0, "DO_2": 0, "DO_3": 0, "DO_4": 0, "DO_5": 0 }
+                return {"unique": installation_unique, "DI_1": None, "DI_2": None, "DI_3": None, "DI_4": None, "DI_5": None, "DO_1": None, "DO_2": None, "DO_3": None, "DO_4": None, "DO_5": None }
             for live_dido in LiveDidos:
                 if live_dido["unique"] == installation_unique:
                     return live_dido
