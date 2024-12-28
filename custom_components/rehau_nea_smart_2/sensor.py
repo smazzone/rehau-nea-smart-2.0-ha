@@ -298,11 +298,11 @@ class RehauNeasmart2LiveEmuTemperatureSensor(SensorEntity, RestoreEntity):
     def native_value(self) -> float | None:
         """Return the native value of the sensor."""
         live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
-        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
+        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1) if live_emu.get(self._propertyname) is not None else None
 
     @property
     def state(self):
         """Return the state of the sensor."""
         live_emu = self._controller.get_live_emu_by_unique(self._live_emu_unique)
-        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1)
+        return round((live_emu.get(self._propertyname) / 10 - 32) / 1.8, 1) if live_emu.get(self._propertyname) is not None else None
 
