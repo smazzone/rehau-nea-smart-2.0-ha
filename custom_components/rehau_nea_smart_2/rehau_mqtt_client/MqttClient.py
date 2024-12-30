@@ -260,7 +260,7 @@ class MqttClient:
         if result != mqtt.MQTT_ERR_SUCCESS:
             self.number_of_message_failures += 1
             if self.number_of_message_failures > 5:
-                _LOGGER.error(f"Error sending message {topic}. Failed {self.number_of_message_failures} times. Data: {json_message}")
+                _LOGGER.error(f"Error sending message {topic}. result: {result}. Failed {self.number_of_message_failures} times. Data: {json_message}")
         else:
             self.number_of_message_failures = 0
         return mid
