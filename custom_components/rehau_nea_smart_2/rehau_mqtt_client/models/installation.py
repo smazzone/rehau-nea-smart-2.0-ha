@@ -31,7 +31,7 @@ class Channel(BaseModel):
     """Type definition for channel data."""
 
     id: str
-    target_temperature: int
+    target_temperature: Optional[int]
     current_temperature: int
     energy_level: int
     operating_mode: int
@@ -72,10 +72,10 @@ class Installation(BaseModel):
 class LiveEmu(BaseModel):
     unique: str
     pumpOn: bool
-    mixed_circuit1_setpoint: int
-    mixed_circuit1_supply: int
-    mixed_circuit1_return: int
-    mixed_circuit1_opening: int
+    mixed_circuit1_setpoint: Optional[int]
+    mixed_circuit1_supply: Optional[int]
+    mixed_circuit1_return: Optional[int]
+    mixed_circuit1_opening: Optional[int]
 
 class LiveDido(BaseModel):
     unique: str
