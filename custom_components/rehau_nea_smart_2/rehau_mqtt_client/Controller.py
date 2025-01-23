@@ -113,61 +113,61 @@ class Controller:
                     zones.append(zone)
         return zones
 
-    def get_zone(self, zone_number: int) -> Zone:
-        """Retrieve a specific zone by zone number.
+    def get_zone(self, zone_id: int) -> Zone:
+        """Retrieve a specific zone by zone id.
 
         Args:
-            zone_number (int): The zone number.
+            zone_id (int): The zone id.
 
         Returns:
             Zone: The zone object.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number.
+            MqttClientError: If no zone is found for the given zone id.
         """
         for zone in self.get_zones():
-            if zone.number == zone_number:
+            if zone.id == zone_id:
                 return zone
-        raise MqttClientError("No zone found for zone " + str(zone_number))
+        raise MqttClientError("No zone found for zone " + str(zone_id))
 
-    def get_installation_unique_by_zone(self, zone_number: int) -> str:
+    def get_installation_unique_by_zone(self, zone_id: int) -> str:
         """Retrieve the unique installation identifier for a specific zone.
 
         Args:
-            zone_number (int): The zone number.
+            zone_id (int): The zone id.
 
         Returns:
             str: The unique installation identifier.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number.
+            MqttClientError: If no zone is found for the given zone id.
         """
         installations = self.get_installations_as_dict()
         for installation in installations:
             for group in installation["groups"]:
                 for zone in group["zones"]:
-                    if zone["number"] == zone_number:
+                    if zone["id"] == zone_id:
                         return installation["unique"]
-        raise MqttClientError("No zone found for zone " + str(zone_number))
+        raise MqttClientError("No zone found for zone " + str(zone_id))
 
-    def get_zone_value_by_key(self, key: str, zone_number: int):
+    def get_zone_value_by_key(self, key: str, zone_id: int):
         """Retrieve the value of a specific key for a specific zone.
 
         Args:
             key (str): The key to retrieve the value for.
-            zone_number (int): The zone number.
+            zone_id (int): The zone id.
 
         Returns:
             Any: The value of the key.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number or if no value is found for the key.
+            MqttClientError: If no zone is found for the given zone id or if no value is found for the key.
         """
         installations = self.get_installations_as_dict()
         for installation in installations:
             for group in installation["groups"]:
                 for zone in group["zones"]:
-                    if zone["number"] == zone_number:
+                    if zone["id"] == zone_id:
                         if len(zone["channels"]) > 1 or key != "_id":
                             values = []
                             for channel in zone["channels"]:
@@ -178,52 +178,50 @@ class Controller:
                                     "No value found for key "
                                     + key
                                     + " in zone "
-                                    + str(zone_number)
+                                    + str(zone_id)
                                 )
                             return sum(values) / len(values)
                         else:
                             raise MqttClientError(
                                 "Multiple channels found for zone "
-                                + str(zone_number)
+                                + str(zone_id)
                                 + " cannot return _id"
                             )
-        raise MqttClientError("No zone found for zone " + str(zone_number))
+        raise MqttClientError("No zone found for zone " + str(zone_id))
 
-    def get_temperature(self, zone: int, unit="C") -> float:
+    def get_temperature(self, zone_id: int, unit="C") -> float:
         """Retrieve the temperature for a specific zone.
 
         Args:
-            zone (int): The zone number.
+            zone_id (int): The zone id.
             unit (str, optional): The unit of temperature. Defaults to "C".
 
         Returns:
             float: The temperature value.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number.
+            MqttClientError: If no zone is found for the given zone id.
         """
-        temperature = self.get_zone_value_by_key("current_temperature", zone) / 10
+        temperature = self.get_zone_value_by_key("current_temperature", zone_id) / 10
         if unit == "C":
             temperature_celsius = (temperature - 32) / 1.8
             return round(temperature_celsius, 1)
 
         return temperature
 
-    def get_humidity(self, zone: int) -> float:
-        """Retrieve the temperature for a specific zone.
+    def get_humidity(self, zone_id: int) -> float:
+        """Retrieve the humidity for a specific zone.
 
         Args:
-            zone (int): The zone number.
-            unit (str, optional): The unit of temperature. Defaults to "C".
+            zone_id (int): The zone id.
 
         Returns:
-            float: The temperature value.
+            float: The humidity value.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number.
+            MqttClientError: If no zone is found for the given zone id.
         """
-
-        return self.get_zone_value_by_key("humidity", zone)
+        return self.get_zone_value_by_key("humidity", zone_id)
 
     def set_temperature(self, payload: dict):
         """Set the temperature for a specific zone.
@@ -262,19 +260,19 @@ class Controller:
         update_temperature(self.get_installations_as_dict(), payload["zone"], int_temperature)
         return self.mqtt_client.send_message(ClientTopics.INSTALLATION.value, temperature_request)
 
-    def get_energy_level(self, zone: int) -> EnergyLevels:
+    def get_energy_level(self, zone_id: int) -> EnergyLevels:
         """Retrieve the energy level for a specific zone.
 
         Args:
-            zone (int): The zone number.
+            zone_id (int): The zone id.
 
         Returns:
             EnergyLevels: The energy level.
 
         Raises:
-            MqttClientError: If no zone is found for the given zone number.
+            MqttClientError: If no zone is found for the given zone id.
         """
-        energy_level = self.get_zone_value_by_key("energy_level", zone)
+        energy_level = self.get_zone_value_by_key("energy_level", zone_id)
         return EnergyLevels(energy_level)
 
     def set_energy_level(self, payload: dict):
@@ -448,3 +446,78 @@ class Controller:
             for live_dido in LiveDidos:
                 if live_dido["unique"] == installation_unique:
                     return live_dido
+
+    def get_zone(self, zone_id: int) -> Zone:
+        """Retrieve a specific zone by zone id.
+
+        Args:
+            zone_id (int): The zone id.
+
+        Returns:
+            Zone: The zone object.
+
+        Raises:
+            MqttClientError: If no zone is found for the given zone id.
+        """
+        for zone in self.get_zones():
+            if zone.id == zone_id:
+                return zone
+        raise MqttClientError("No zone found for zone " + str(zone_id))
+
+def update_temperature(installations: list[Installation], zone_id: str, temperature: float) -> list[Installation]:
+    """Update temperature."""
+    for installation in installations:
+        for group in installation["groups"]:
+            for zone in group["zones"]:
+                if zone["id"] == zone_id:
+                    for channel in zone["channels"]:
+                        channel["target_temperature"] = temperature
+
+    return installations
+
+def update_energy_level(installations: list[Installation], zone_id: str, energy_level: int) -> list[Installation]:
+    """Update energy level."""
+    for installation in installations:
+        for group in installation["groups"]:
+            for zone in group["zones"]:
+                if zone["id"] == zone_id:
+                    for channel in zone["channels"]:
+                        channel["energy_level"] = energy_level
+
+    return installations
+
+def get_global_energy_level(installation) -> EnergyLevels:
+    """Calculate the global energy level based on the provided installation dictionary.
+
+    Args:
+        installation (dict): A dictionary representing the installation.
+
+    Returns:
+        EnergyLevels: The maximum EnergyLevels value representing the global energy level.
+    """
+    mode_count = {
+        EnergyLevels.PRESENT_MODE.value: 0,
+        EnergyLevels.ABSENT_MODE.value: 0,
+        EnergyLevels.STANDBY_MODE.value: 0,
+        EnergyLevels.TIMING_MODE.value: 0,
+        EnergyLevels.PARTY_MODE.value: 0,
+        EnergyLevels.HOLIDAY_MODE.value: 0,
+    }
+
+    for group in installation["groups"]:
+        for zone in group["zones"]:
+            for channel in zone["channels"]:
+                if channel["mode_permanent"] == EnergyLevels.PRESENT_MODE.value:
+                    mode_count[EnergyLevels.PRESENT_MODE.value] += 1
+                elif channel["mode_permanent"] == EnergyLevels.ABSENT_MODE.value:
+                    mode_count[EnergyLevels.ABSENT_MODE.value] += 1
+                elif channel["mode_permanent"] == EnergyLevels.STANDBY_MODE.value:
+                    mode_count[EnergyLevels.STANDBY_MODE.value] += 1
+                elif channel["mode_permanent"] == EnergyLevels.TIMING_MODE.value:
+                    mode_count[EnergyLevels.TIMING_MODE.value] += 1
+                elif channel["mode_permanent"] == EnergyLevels.PARTY_MODE.value:
+                    mode_count[EnergyLevels.PARTY_MODE.value] += 1
+                elif channel["mode_permanent"] == EnergyLevels.HOLIDAY_MODE.value:
+                    mode_count[EnergyLevels.HOLIDAY_MODE.value] += 1
+
+    return EnergyLevels(max(mode_count, key=mode_count.get))
