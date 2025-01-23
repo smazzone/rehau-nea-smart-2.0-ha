@@ -11,7 +11,7 @@ from .rehau_mqtt_client import (
 
 LOGGER: Logger = getLogger(__package__)
 
-NAME = "Rehua Nea Smart 2.0"
+NAME = "Rehau Nea Smart 2.0"
 DOMAIN = "rehau_nea_smart_2"
 VERSION = "0.1.0"
 ATTRIBUTION = "Data provided by REHAU Nea Smart 2.0 Mqtt API"
