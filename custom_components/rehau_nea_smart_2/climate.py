@@ -163,10 +163,11 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def current_temperature(self) -> float | None:
         """Return the current temperature."""
-        _LOGGER.debug(f"Getting current temperature for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting current temperature for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
+            _LOGGER.debug(f"Current temperature {self.format_temperature(channel.current_temperature)} for zone {self._zone_number} with name {self._name} and ID {self._id}")
             return self.format_temperature(channel.current_temperature)
 
         return self._attr_current_temperature
@@ -174,8 +175,8 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def target_temperature(self) -> float | None:
         """Return the target temperature."""
-        _LOGGER.debug(f"Getting target temperature for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting target temperature for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
             if channel.target_temperature is not None: 
@@ -188,10 +189,11 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def current_humidity(self) -> float | None:
         """Return current humidity."""
-        _LOGGER.debug(f"Getting current humidity for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting current humidity for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
+            _LOGGER.debug(f"Current humidity {channel.humidity} for zone {self._zone_number} with name {self._name} and ID {self._id}")
             return channel.humidity if channel.humidity>0 else None
 
         return self._attr_current_humidity
@@ -199,8 +201,8 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def hvac_mode(self) -> str | None:
         """Return the current operation mode."""
-        _LOGGER.debug(f"Getting operation mode for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting operation mode for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
             return PRESET_CLIMATE_MODES_MAPPING[channel.operating_mode]
@@ -210,8 +212,8 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def hvac_action(self) -> str | None:
         """Hvac action."""
-        _LOGGER.debug(f"Getting HVAC action for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting HVAC action for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
             if channel.demand == 0:
@@ -230,8 +232,8 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     @property
     def preset_mode(self) -> str | None:
         """Return the current energy level."""
-        _LOGGER.debug(f"Getting energy level for zone {self._zone_number}")
-        zone = self._controller.get_zone(self._zone_number)
+        _LOGGER.debug(f"Getting energy level for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        zone = self._controller.get_zone(self._id)
         if zone is not None:
             channel = zone.channels[0]
             return PRESET_ENERGY_LEVELS_MAPPING_REVERSE[channel.energy_level]
@@ -241,19 +243,59 @@ class RehauNeaSmart2RoomClimate(IntegrationRehauNeaSmart2Climate):
     async def async_set_preset_mode(self, preset_mode: str):
         """Set the preset mode of the climate entity."""
         mode = PRESET_ENERGY_LEVELS_MAPPING[preset_mode]
-        _LOGGER.debug(f"Setting mode to {mode}")
-        self._controller.set_energy_level({"zone": self._zone_number, "mode": mode})
+        _LOGGER.debug(f"Setting mode to {mode} for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        self._controller.set_energy_level({"zone": self._id, "mode": mode})
 
     async def async_set_temperature(self, **kwargs):
         """Set the target temperature of the climate entity."""
         temperature = kwargs.get(ATTR_TEMPERATURE)
         if temperature is None:
             return
-        _LOGGER.debug(f"Setting temperature to {temperature}")
-        self._controller.set_temperature({"zone": self._zone_number, "temperature": temperature})
+        _LOGGER.debug(f"Setting temperature to {temperature} for zone {self._zone_number} with name {self._name} and ID {self._id}")
+        self._controller.set_temperature({"zone": self._id, "temperature": temperature})
 
     async def async_set_hvac_mode(self, hvac_mode: str):
         """Set the HVAC mode of the climate entity."""
         operation_mode = PRESET_CLIMATE_MODES_MAPPING_REVERSE[hvac_mode]
-        _LOGGER.debug(f"Setting operation mode to {operation_mode}")
+        _LOGGER.debug(f"Setting operation mode to {operation_mode} for zone {self._zone_number} with name {self._name} and ID {self._id}")
         self._controller.set_operation_mode(operation_mode)
+
+    def get_zone(self, zone_id: int) -> Zone:
+        """Retrieve a specific zone by zone id.
+
+        Args:
+            zone_id (int): The zone id.
+
+        Returns:
+            Zone: The zone object.
+
+        Raises:
+            MqttClientError: If no zone is found for the given zone id.
+        """
+        for zone in self.get_zones():
+            if zone.id == zone_id:
+                return zone
+        raise MqttClientError("No zone found for zone " + str(zone_id))
+
+
+def update_temperature(installations: list[Installation], zone_id: str, temperature: float) -> list[Installation]:
+    """Update temperature."""
+    for installation in installations:
+        for group in installation["groups"]:
+            for zone in group["zones"]:
+                if zone["id"] == zone_id:
+                    for channel in zone["channels"]:
+                        channel["target_temperature"] = temperature
+
+    return installations
+
+def update_energy_level(installations: list[Installation], zone_id: str, energy_level: int) -> list[Installation]:
+    """Update energy level."""
+    for installation in installations:
+        for group in installation["groups"]:
+            for zone in group["zones"]:
+                if zone["id"] == zone_id:
+                    for channel in zone["channels"]:
+                        channel["energy_level"] = energy_level
+
+    return installations
