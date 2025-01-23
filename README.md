@@ -34,7 +34,7 @@ The Rehau Nea Smart 2.0 Home Assistant Integration empowers you to control and m
 4. Navigate to Settings -> Devices and Services -> Integrations and add the Rehau Nea Smart 2.0 Integration.
 
 ## Troubleshooting
-- Should you encounter any issues with the integration, kindly open an issue on the GitHub repository for prompt assistance.
+- Should you encounter any issues with the integration, kindly open an issue on the GitHub repository. My support on it is as best effort ;-)
 
 ## Contributing
 - Contributions are welcome. Please open an issue on the GitHub repository to discuss any proposed changes before submitting a pull request.
